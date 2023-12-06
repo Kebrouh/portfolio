@@ -1,0 +1,20 @@
+[
+    {
+        "nom": "projet 1",
+        "type": "jeu",
+        "img": "no-img.png",
+        "description": "Voici un projet de jeu"
+    },
+    {
+        "nom": "projet 2",
+        "type": "web",
+        "img": "no-img.png",
+        "description": "Voici un projet de web"
+    },
+    {
+        "nom": "projet 3",
+        "type": "3d",
+        "img": "no-img.png",
+        "description": "Voici un projet de 3d"
+    }
+]

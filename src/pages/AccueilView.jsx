@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
-const MenuView = () => {
+import projet from "../data/projet.json";
+
+const AccueilView = () => {
+    const { pos } = useParams();
+    // console.log(photo)
 
     return (
     <div className="relative">
@@ -9,26 +14,28 @@ const MenuView = () => {
 
         <article>
 
-        {/* pop-up header */}
-        <div>
-            <h2>projet X</h2>
-        </div>
+            POPUP PROJET
 
-        {/* section img & cpt */}
-        <div>
+            {/* pop-up header */}
+            <div>
+                <h2>{projet[pos - 1].nom}</h2>
+            </div>
+
+            {/* section img & cpt */}
+            <div>
+                
+                {/* img */}
+                <img src={`./../../public/img/${projet[pos - 1].img}`} alt="placeholder" />
+            </div>
             
-            {/* img */}
-            <img src="./../../public/img/no-img.png" alt="placeholder" />
-        </div>
-        
-        {/* section info */}
-        <div>
-            <p>description</p>
-        </div>
+            {/* section info */}
+            <div>
+                <p>{projet[pos - 1].description}</p>
+            </div>
 
         </article>
     </div>
     );
 };
 
-export default MenuView;
+export default AccueilView;

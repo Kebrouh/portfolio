@@ -2,6 +2,8 @@ import Layout from "./Layout";
 import Accueil from "../pages/Accueil";
 import AccueilView from "../pages/AccueilView";
 
+import projet from "../data/projet.json";
+
 import {
   Navigate,
   RouterProvider,
@@ -20,10 +22,10 @@ const App = () => {
         },
         {
           path: "accueil",
-          element: <Accueil />,
+          element: <Accueil projet={projet}/>,
           children: [
             {
-              path: "projet",
+              path: ":pos",
               element: <AccueilView />,
             },
           ],
