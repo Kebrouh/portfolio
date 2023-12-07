@@ -21,11 +21,26 @@ const AccueilView = () => {
                 <h2>{projet[pos - 1].nom}</h2>
             </div>
 
-            {/* section img & cpt */}
+            {/* section img OR vid */}
             <div>
                 
-                {/* img */}
-                <img src={`./../../public/img/${projet[pos - 1].img}`} alt="placeholder" />
+                {projet[pos - 1].hasVid ? (
+                    <>
+                        <img
+                            src={`/img/${projet[pos - 1].gif}`}
+                            alt={projet[pos - 1].nom}
+                        />
+                        <p>voici un apercu gif</p>
+                    </>
+                ) : (
+                    <>
+                        <img
+                            src={`/img/${projet[pos - 1].img}`}
+                            alt={projet[pos - 1].nom}
+                        />
+                        <p>voici un apercu img</p>
+                    </>
+                )}
             </div>
             
             {/* section info */}

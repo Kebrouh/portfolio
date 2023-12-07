@@ -2,18 +2,23 @@
     {
         "nom": "projet 1",
         "type": "jeu",
+        "hasVid": true,
+        "gif": "placeholder_gif.gif",
         "img": "no-img.png",
         "description": "Voici un projet de jeu"
     },
     {
         "nom": "projet 2",
         "type": "web",
+        "hasVid": false,
         "img": "no-img.png",
         "description": "Voici un projet de web"
     },
     {
         "nom": "projet 3",
         "type": "3d",
+        "hasVid": true,
+        "gif": "placeholder_gif.gif",
         "img": "no-img.png",
         "description": "Voici un projet de 3d"
     }

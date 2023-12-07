@@ -1,10 +1,12 @@
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 
+import './Accueil.css';
+
 const Accueil = ({ projet = [] }) => {
 
     return (
-        <div>
+        <div className="page-accueil">
             PAGE ACCUEIL
 
             {/* Afficher la vue-enfant ici */}
@@ -13,20 +15,35 @@ const Accueil = ({ projet = [] }) => {
             </div>
 
             GRILLE PROJET
-            {projet.map(({ nom, description, img }, i) => (
-                <div key={projet}>
-                    <Link to={`/accueil/${i + 1}`}> 
-                        <img
-                            src={`./../../public/img/${img}`}
-                            alt={nom}
-                        />
-                        <div>
-                            <h2>{nom}</h2>
-                            <p>{description}</p>
-                        </div>
-                    </Link>
-                </div>
-            ))}
+            <div className="grid-projet">
+                {projet.map(({ nom, description, img, gif, hasVid }, i) => (
+                    <div className="vignette-projet" key={projet}>
+                        <Link to={`/accueil/${i + 1}`}> 
+                            {hasVid ? (
+                                <>
+                                    <img
+                                        src={`/img/${gif}`}
+                                        alt={nom}
+                                    />
+                                    <p>voici un apercu gif</p>
+                                </>
+                            ) : (
+                                <>
+                                    <img
+                                        src={`/img/${img}`}
+                                        alt={nom}
+                                    />
+                                    <p>voici un apercu img</p>
+                                </>
+                            )}
+                            <div>
+                                <h2>{nom}</h2>
+                                <p>{description}</p>
+                            </div>
+                        </Link>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };

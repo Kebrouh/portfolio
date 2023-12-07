@@ -1,0 +1,15 @@
+.page-accueil{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    & .grid-projet{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        & .vignette-projet{
+            
+        }
+    }
+}
