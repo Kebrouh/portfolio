@@ -19,7 +19,6 @@ const DropdownFilter = ({ types, onChangeFilter }) => {
                 value={filter}
                 onChange={handleChangeFilter}
             >
-                <option value="">-- Please Select --</option>
                 <option value="all">All</option>
                 {types.map(type => (
                     <option key={type} value={type}>

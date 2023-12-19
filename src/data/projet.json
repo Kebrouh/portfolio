@@ -8,15 +8,30 @@
         "description": "Voici un projet de jeu"
     },
     {
-        "nom": "projet 2",
+        "nom": "Pemana",
         "type": "web",
         "hasVid": false,
-        "img": "no-img.png",
-        "description": "Voici un projet de web"
+        "img": "logo_pemana.svg",
+        "description": "Vue3 website"
+    },
+    {
+        "nom": "Traiteur Cagiotti",
+        "type": "web",
+        "hasVid": false,
+        "img": "logo_cagiotti.png",
+        "description": "Vue3 website"
     },
     {
         "nom": "projet 3",
         "type": "3d",
+        "hasVid": true,
+        "gif": "placeholder_gif.gif",
+        "img": "no-img.png",
+        "description": "Voici un projet de 3d"
+    },
+    {
+        "nom": "projet 3",
+        "type": "globaglarb",
         "hasVid": true,
         "gif": "placeholder_gif.gif",
         "img": "no-img.png",

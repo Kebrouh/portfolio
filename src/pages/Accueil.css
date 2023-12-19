@@ -3,13 +3,37 @@
     margin-top: 50px;
     margin-bottom: 50px;
 
-    & .grid-projet{
+    & .section-projet{
+        position: relative;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-        & .vignette-projet{
+        & .filter{
+            margin: 1em;
+            font-family: var(--paragraphe);
             
+            & select{
+                font-family: var(--paragraphe);
+                padding: 1em;
+                border-radius: 0.5em;
+                border: none;
+                & *{
+                    font-family: var(--paragraphe);
+                }
+            }
+        }
+        
+        & .grid-projet{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+    
+            & .vignette-projet{
+                
+            }
         }
     }
 }
