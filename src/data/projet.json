@@ -1,25 +1,25 @@
 [
     {
         "nom": "Facto-bee",
-        "type": "jeu",
+        "type": "game",
         "hasLink": false,
         "link": "https://jtremblay.tim-cstj.ca/jeu4/2023/promo/j5/",
         "hasVid": false,
         "gif": "",
         "img": "facto-bee_apercu.jpg",
         "logoLogi": "icons8-unity.svg",
-        "description": "Voici un projet de jeu"
+        "description": "Unity 3d game"
     },
     {
         "nom": "Empoulpade",
-        "type": "jeu",
+        "type": "game",
         "hasLink": true,
         "link": "https://jtremblay.tim-cstj.ca/jeu4/2023/promo/j5/",
         "hasVid": false,
         "gif": "empoulpade_apercu.gif",
         "img": "empoulpade_apercu.jpg",
         "logoLogi": "icons8-unity.svg",
-        "description": "Voici un projet de jeu"
+        "description": "Unity 2d game"
     },
     {
         "nom": "Harmonize",
@@ -30,7 +30,7 @@
         "gif": "",
         "img": "harmonize_apercu.jpg",
         "logoLogi": "icons8-visual-studio.svg",
-        "description": "React js website"
+        "description": "React js app"
     },
     {
         "nom": "Pemana",
