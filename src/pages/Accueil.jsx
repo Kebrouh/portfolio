@@ -1,9 +1,21 @@
+import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
+
+import DropdownFilter from "./../components/DropdownFilter";
 
 import './Accueil.css';
 
 const Accueil = ({ projet = [] }) => {
+    const [filter, setFilter] = useState('all');
+
+    const handleChangeFilter = selectedFilter => {
+        setFilter(selectedFilter);
+    };
+
+    const filteredProjects = filter === "all" ? projet : projet.filter(p => p.type === filter);
+
+    const projectTypes = [...new Set(projet.map(p => p.type))]; // Extract unique project types
 
     return (
         <div className="page-accueil">
@@ -14,11 +26,15 @@ const Accueil = ({ projet = [] }) => {
                 <Outlet />
             </div>
 
+            <div className="filter">
+                <DropdownFilter types={projectTypes} onChangeFilter={handleChangeFilter} />
+            </div>
+
             GRILLE PROJET
             <div className="grid-projet">
-                {projet.map(({ nom, description, img, gif, hasVid }, i) => (
-                    <div className="vignette-projet" key={projet}>
-                        <Link to={`/accueil/${i + 1}`}> 
+                {filteredProjects.map(({ nom, description, img, gif, hasVid }, i) => (
+                    <div className="vignette-projet" key={i}>
+                        <Link to={`/accueil/${i + 1}`}>
                             {hasVid ? (
                                 <>
                                     <img

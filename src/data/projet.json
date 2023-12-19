@@ -21,5 +21,13 @@
         "gif": "placeholder_gif.gif",
         "img": "no-img.png",
         "description": "Voici un projet de 3d"
+    },
+    {
+        "nom": "projet 3",
+        "type": "globaglarb",
+        "hasVid": true,
+        "gif": "placeholder_gif.gif",
+        "img": "no-img.png",
+        "description": "Voici un projet de 3d"
     }
 ]
