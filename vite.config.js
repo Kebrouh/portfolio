@@ -9,6 +9,7 @@ export default defineConfig({
     // Adjust the include option based on your file structure
     // For example, if your JSX files are in the "src" directory:
     // include: 'src/**/*.jsx',
+    assetsDir: 'assets',
     outDir: 'build',
   },
 })
