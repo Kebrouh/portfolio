@@ -35,7 +35,7 @@ const AccueilView = () => {
                 ) : (
                     <>
                         <img
-                            src={`/img/${projet[pos - 1].img}`}
+                            src={`/${projet[pos - 1].img}`}
                             alt={projet[pos - 1].nom}
                         />
                         <p>voici un apercu img</p>

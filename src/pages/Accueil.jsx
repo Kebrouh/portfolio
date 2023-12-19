@@ -31,7 +31,7 @@ const Accueil = ({ projet = [] }) => {
                 </div>
 
                 <div className="grid-projet">
-                    {filteredProjects.map(({ nom, description, img, gif, hasVid }, i) => (
+                    {filteredProjects.map(({ nom, description, img, gif, hasVid, logoLogi }, i) => (
                         <div className="vignette-projet" key={i}>
                             <Link to={`/accueil/${i + 1}`}>
                                 {hasVid ? (
@@ -40,18 +40,22 @@ const Accueil = ({ projet = [] }) => {
                                             src={`/img/${gif}`}
                                             alt={nom}
                                         />
-                                        <p>voici un apercu gif</p>
                                     </>
                                 ) : (
                                     <>
                                         <img
-                                            src={`/img/${img}`}
+                                            src={`/${img}`}
                                             alt={nom}
                                         />
-                                        <p>voici un apercu img</p>
                                     </>
                                 )}
-                                <div>
+                                <div className="logi-projet">
+                                    <img
+                                        src={`/${logoLogi}`}
+                                        alt="logo_logiciel"
+                                    />
+                                </div>
+                                <div className="info-projet">
                                     <h2>{nom}</h2>
                                     <p>{description}</p>
                                 </div>

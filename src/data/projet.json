@@ -1,48 +1,79 @@
 [
     {
-        "nom": "projet 1",
+        "nom": "Facto-bee",
         "type": "jeu",
-        "hasVid": true,
-        "gif": "placeholder_gif.gif",
-        "img": "no-img.png",
+        "hasLink": false,
+        "link": "https://jtremblay.tim-cstj.ca/jeu4/2023/promo/j5/",
+        "hasVid": false,
+        "gif": "",
+        "img": "facto-bee_apercu.jpg",
+        "logoLogi": "icons8-unity.svg",
         "description": "Voici un projet de jeu"
+    },
+    {
+        "nom": "Empoulpade",
+        "type": "jeu",
+        "hasLink": true,
+        "link": "https://jtremblay.tim-cstj.ca/jeu4/2023/promo/j5/",
+        "hasVid": false,
+        "gif": "empoulpade_apercu.gif",
+        "img": "empoulpade_apercu.jpg",
+        "logoLogi": "icons8-unity.svg",
+        "description": "Voici un projet de jeu"
+    },
+    {
+        "nom": "Harmonize",
+        "type": "web",
+        "hasLink": true,
+        "link": "https://harmonize2000.netlify.app",
+        "hasVid": false,
+        "gif": "",
+        "img": "harmonize_apercu.jpg",
+        "logoLogi": "icons8-visual-studio.svg",
+        "description": "React js website"
     },
     {
         "nom": "Pemana",
         "type": "web",
+        "hasLink": true,
+        "link": "https://pemana.ca/#/",
         "hasVid": false,
-        "img": "logo_pemana.svg",
+        "gif": "",
+        "img": "pemana_apercu.jpg",
+        "logoLogi": "icons8-visual-studio.svg",
         "description": "Vue3 website"
     },
     {
         "nom": "Traiteur Cagiotti",
         "type": "web",
+        "hasLink": true,
+        "link": "https://traiteurcagiotti.ca/#/",
         "hasVid": false,
-        "img": "logo_cagiotti.png",
+        "gif": "",
+        "img": "cagiotti_apercu.jpg",
+        "logoLogi": "icons8-visual-studio.svg",
         "description": "Vue3 website"
     },
     {
         "nom": "projet 3",
-        "type": "3d",
+        "type": "globaglarb",
+        "hasLink": true,
+        "link": "https://jtremblay.tim-cstj.ca/jeu4/2023/promo/j5/",
         "hasVid": true,
         "gif": "placeholder_gif.gif",
         "img": "no-img.png",
+        "logoLogi": "icons8-visual-studio.svg",
         "description": "Voici un projet de 3d"
     },
     {
         "nom": "projet 3",
         "type": "globaglarb",
+        "hasLink": true,
+        "link": "https://jtremblay.tim-cstj.ca/jeu4/2023/promo/j5/",
         "hasVid": true,
         "gif": "placeholder_gif.gif",
         "img": "no-img.png",
-        "description": "Voici un projet de 3d"
-    },
-    {
-        "nom": "projet 3",
-        "type": "globaglarb",
-        "hasVid": true,
-        "gif": "placeholder_gif.gif",
-        "img": "no-img.png",
+        "logoLogi": "icons8-visual-studio.svg",
         "description": "Voici un projet de 3d"
     }
 ]

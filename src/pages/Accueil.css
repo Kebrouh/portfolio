@@ -32,7 +32,31 @@
             justify-content: space-around;
     
             & .vignette-projet{
-                
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                object-fit: contain;
+                width: 300px;
+                & a{
+                    &>img{
+                        width: 300px;
+                        height: 300px;
+                        border-radius: 0.5em;
+                        background-color: white;
+                    }
+                    & .logi-projet{
+                        position: absolute;
+                        top: 1em;
+                        right: -0.5em;
+                        border-radius: 0.5em;
+                        background-color: var(--cyan-pale);
+
+                        & img{
+                            padding: 0.5em;
+                            filter: invert(99%) sepia(1%) saturate(3572%) hue-rotate(193deg) brightness(117%) contrast(100%);
+                        }
+                    }
+                }
             }
         }
     }
