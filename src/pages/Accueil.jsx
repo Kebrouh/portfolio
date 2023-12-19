@@ -49,12 +49,14 @@ const Accueil = ({ projet = [] }) => {
                                         />
                                     </>
                                 )}
+
                                 <div className="logi-projet">
                                     <img
                                         src={`/${logoLogi}`}
                                         alt="logo_logiciel"
                                     />
                                 </div>
+                                
                                 <div className="info-projet">
                                     <h2>{nom}</h2>
                                     <p>{description}</p>
