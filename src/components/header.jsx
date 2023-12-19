@@ -8,7 +8,15 @@ const Accueil = () => {
     return (
         <div className="header">
             
-            HEADER - ligma ballz gottem
+            <div className="header-bg">
+                <img src="/footer_v2.png" alt="img-ng-footer" />
+            </div>
+
+            <div className="section-info">
+                <h2>Olivier Daigneault</h2>
+                <p>3D creator - Multimedia integrator</p>
+            </div>
+
 
         </div>
     );
