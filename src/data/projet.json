@@ -20,6 +20,22 @@
         "long_description": "Here is a 3D animation created using Autodesk 3ds Max. During my internship at Atmosphäre, I was tasked with transforming the company values into a 3D animation. I began with 2D flat icon illustrations and presented my approach on how I intended to animate them. Once everything was finalized, I commenced the work, and the final result was incorporated into company presentations."
     },
     {
+        "nom": "Street",
+        "type": "3d",
+        "hasLink": true,
+        "link": "https://tim-cstj.ca/meilleures-creations-3d-automne-2020/#bwg5/199",
+        "hasVid": false,
+        "gif": "",
+        "img": "ruelle.jpg",
+        "galerie_img":[
+            "ruelle.jpg",
+            "banana.avif"
+        ],
+        "logoLogi": "icons8-3ds-max.svg",
+        "description": "3d modeling",
+        "long_description": "This is a 3D render of a street that I modeled, textured, and edited as part of my 3D #1 class project. Drawing inspiration from the game CS:GO, specifically the 'banana' hallway in the inferno map, I aimed to recreate a similar atmosphere. Given that this was one of my initial projects while learning Autodesk 3ds Max, I am pleased with the results. Now, with CS2 released and the inferno map getting a remake, I am excited about the prospect of applying my current 3D skills to recreate the new 'banana' area."
+    },
+    {
         "nom": "Small room w/furniture",
         "type": "3d",
         "hasLink": true,
@@ -36,7 +52,7 @@
         ],
         "logoLogi": "icons8-3ds-max.svg",
         "description": "3d modeling",
-        "long_description": "This is a Unity 3d"
+        "long_description": "I modeled this small room in 3ds Max for fun, drawing inspiration from some of my home furniture and arranging it in a way I would like my living room to be."
     },
     {
         "nom": "Bedroom",
@@ -51,7 +67,7 @@
         ],
         "logoLogi": "icons8-3ds-max.svg",
         "description": "3d modeling",
-        "long_description": "This is a Unity 3d"
+        "long_description": "I created this bedroom model using 3ds Max for my 3D class #1, where I replicated some of my home furniture and added details to showcase how I envision my ideal room. I believe I achieved a quite pleasant result."
     },
     {
         "nom": "Facto-bee",
@@ -73,7 +89,7 @@
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 3d game",
-        "long_description": "This is a Unity 3d urp game made for my video game 5 class in team. In this project i was in charge of all of the visuals"
+        "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
     },
     {
         "nom": "Empoulpade",
@@ -85,11 +101,14 @@
         "img": "empoulpade_apercu.jpg",
         "galerie_img":[
             "empoulpade_apercu.jpg",
-            "jeux_intro.jpg"
+            "jeux_intro.jpg",
+            "emp_game.png",
+            "emp_wall.png",
+            "emp_shop.png"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 2d game",
-        "long_description": "This is a Unity 3d"
+        "long_description": "I collaborated with a teammate to create a 2D game for our video game class #4. Taking on the role of visual design lead, I handled various aspects, including character design, tilemap creation, UI development, and more. Additionally, I played a crucial role in defining the game's direction and mechanics.\n\n This project was particularly enjoyable for me as it marked my first experience using Animate for character rigging and animation. I successfully developed a unique visual style and became adept at animating non-humanoid characters. Working closely with my teammates, we introduced engaging features like wall jumps and a sophisticated particle system, adding depth and excitement to the gameplay."
     },
     {
         "nom": "Escape game",
@@ -106,7 +125,7 @@
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity VR game",
-        "long_description": "This is a Unity 3d"
+        "long_description": "I collaborated with my teammates to develop a VR escape room game for our Techno-Émergente class. Taking the lead in visual design, I was responsible for creating the entire environment and assets for the game, including 3D models and textures. Additionally, I played a key role in defining the game's direction and mechanics. This project was particularly exciting for me as it marked my first foray into creating a fully playable 3D environment. I focused on crafting a dark cave/temple-style environment, ensuring that the assets complemented the overall atmosphere of the game."
     },
     {
         "nom": "Mazon",
@@ -124,7 +143,7 @@
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity VR game",
-        "long_description": "This is a Unity 3d"
+        "long_description": "In the Techno-Emergent class, my teammate and I worked on a VR escape room game. I handled all the 3D modeling, textures, and game mechanics. It was my first time doing 3D modeling for a game, and though it was basic, it was a fun experience."
     },
     {
         "nom": "Harmonize",
@@ -135,11 +154,13 @@
         "gif": "",
         "img": "harmonize_apercu.jpg",
         "galerie_img":[
-            "harmonize_apercu.jpg"
+            "harmonize_apercu.jpg",
+            "har_playlists.png",
+            "har_playlist.png"
         ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "React js app",
-        "long_description": "This is a Unity 3d"
+        "long_description": "This responsive web application was created as part of a collaborative effort for the Web #5 class. My teammate and I took on the responsibility of designing the visual elements of the web app. While our other teammates developed the working skeleton of the app, our role was to stylize it, make modifications, and define the overall aesthetic. Specifically, I focused on styling the playlist pages, the interior of a playlist page, and the audio player, ensuring a cohesive and visually appealing user experience."
     },
     {
         "nom": "Pemana",
@@ -150,11 +171,14 @@
         "gif": "",
         "img": "pemana_apercu.jpg",
         "galerie_img":[
-            "pemana_apercu.jpg"
+            "pemana_apercu.jpg",
+            "pem_list.png",
+            "pem_item.png",
+            "pem_venir.png"
         ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "Vue3 website",
-        "long_description": "This is a Unity 3d"
+        "long_description": "I created a website using the Vue 3 framework, hosted on GitHub Pages with a custom domain name. I independently coded the entire website and implemented reusable components for easy building additions through a .json internal database. Additionally, I integrated Google Analytics to help the client track user traffic while experimenting with various marketing methods. This project was part of my internship at Pemana, aimed at promoting the buildings and quays available for rent by the company."
     },
     {
         "nom": "Traiteur Cagiotti",
@@ -165,10 +189,11 @@
         "gif": "",
         "img": "cagiotti_apercu.jpg",
         "galerie_img":[
-            "cagiotti_apercu.jpg"
+            "cagiotti_apercu.jpg",
+            "cag_menu.png"
         ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "Vue3 website",
-        "long_description": "This is a Unity 3d"
+        "long_description": "I developed a website using the Vue 3 framework, hosted on GitHub Pages with a custom domain name. I handled the entire coding process, implementing reusable components to simplify meal modifications through a .json internal database. I integrated Google Analytics to assist the client in monitoring user traffic during various marketing experiments. Additionally, I incorporated an email form to facilitate customer communication and allow them to place orders directly on the website. The website also featured a weekly rotation of meals across four groups. This project was part of my internship at Pemana, focused on promoting the company's catering services."
     }
 ]
