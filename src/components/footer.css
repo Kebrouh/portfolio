@@ -151,7 +151,7 @@
         border-radius: 0.5em;
         color: white;
         background-color: var(--cyan-fonce);
-        border: 3px solid white;
+        border: 2px solid white;
         &:hover{
             background-color: var(--cyan-pale);
             transition: 0.5s ease-in-out;

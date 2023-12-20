@@ -36,10 +36,11 @@
                     height: 100px;
                     padding: 0;
                     content: "";
-                    left: -1em;
+                    left: -1.5em;
                     top: -1em;
                     border-radius: 0.5em;
                     background-color: var(--cyan-reg);
+                    border-left: 1em solid var(--cyan-pale);
                     z-index: -10;
                 }
 
@@ -71,10 +72,11 @@
                     height: 100px;
                     padding: 0;
                     content: "";
-                    left: -1em;
+                    left: -1.5em;
                     top: -3em;
                     border-radius: 0.5em;
                     background-color: var(--cyan-reg);
+                    border-left: 1em solid var(--cyan-pale);
                     z-index: -10;
                 }
                 &::after{
