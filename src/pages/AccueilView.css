@@ -30,10 +30,45 @@
         width: 60%;
 
         
+        & .anchor{
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+
+            & .retour{
+                position: absolute;
+                top: -0.5em;
+                left: -2em;
+                padding: 0.5em;
+                border-radius: 0.5em;
+                background-color: var(--cyan-pale);
+                color: white;
+                & *{
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+            
+            & .logi-projet{
+                position: absolute;
+                top: -2em;
+                right: 0.5em;
+                border-radius: 0.5em;
+                background-color: var(--cyan-pale);
+                & img{
+                    padding: 0.5em;
+                    filter: invert(99%) sepia(1%) saturate(3572%) hue-rotate(193deg) brightness(117%) contrast(100%);
+                }
+            }
+        }
+
+        
         & .view-media{
             width: 400px;
             display: flex;
             justify-content: start;
+            margin: 0 1em;
 
             /* SCARY SPOOKY CAROUSSEL STUFF STARTS HERE */
             & .carousel-root{
@@ -74,7 +109,7 @@
         }
 
         & .wrap-info{
-            margin: 1em 3em;
+            margin: 1em;
 
             & h2{
                 font-family: var(--paragraphe);
