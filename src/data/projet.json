@@ -8,7 +8,8 @@
         "gif": "",
         "img": "facto-bee_apercu.jpg",
         "logoLogi": "icons8-unity.svg",
-        "description": "Unity 3d game"
+        "description": "Unity 3d game",
+        "long_description": "This is a Unity 3d urp game made for my video game 5 class in team. In this project i was in charge of all of the visuals"
     },
     {
         "nom": "Empoulpade",
@@ -19,7 +20,8 @@
         "gif": "empoulpade_apercu.gif",
         "img": "empoulpade_apercu.jpg",
         "logoLogi": "icons8-unity.svg",
-        "description": "Unity 2d game"
+        "description": "Unity 2d game",
+        "long_description": "This is a Unity 3d"
     },
     {
         "nom": "Harmonize",
@@ -30,7 +32,8 @@
         "gif": "",
         "img": "harmonize_apercu.jpg",
         "logoLogi": "icons8-visual-studio.svg",
-        "description": "React js app"
+        "description": "React js app",
+        "long_description": "This is a Unity 3d"
     },
     {
         "nom": "Pemana",
@@ -41,7 +44,8 @@
         "gif": "",
         "img": "pemana_apercu.jpg",
         "logoLogi": "icons8-visual-studio.svg",
-        "description": "Vue3 website"
+        "description": "Vue3 website",
+        "long_description": "This is a Unity 3d"
     },
     {
         "nom": "Traiteur Cagiotti",
@@ -52,7 +56,8 @@
         "gif": "",
         "img": "cagiotti_apercu.jpg",
         "logoLogi": "icons8-visual-studio.svg",
-        "description": "Vue3 website"
+        "description": "Vue3 website",
+        "long_description": "This is a Unity 3d"
     },
     {
         "nom": "projet 3",
@@ -63,7 +68,8 @@
         "gif": "placeholder_gif.gif",
         "img": "no-img.png",
         "logoLogi": "icons8-visual-studio.svg",
-        "description": "Voici un projet de 3d"
+        "description": "Voici un projet de 3d",
+        "long_description": "This is a Unity 3d"
     },
     {
         "nom": "projet 3",
@@ -74,6 +80,7 @@
         "gif": "placeholder_gif.gif",
         "img": "no-img.png",
         "logoLogi": "icons8-visual-studio.svg",
-        "description": "Voici un projet de 3d"
+        "description": "Voici un projet de 3d",
+        "long_description": "This is a Unity 3d"
     }
 ]

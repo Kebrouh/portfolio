@@ -3,26 +3,22 @@ import { useParams } from "react-router-dom";
 
 import projet from "../data/projet.json";
 
+import './AccueilView.css';
+
 const AccueilView = () => {
     const { pos } = useParams();
     // console.log(photo)
 
     return (
-    <div className="relative">
+    <div className="page-accueilView">
         {/* overlay dark */}
-        <div className="overlay"></div>
+        <Link to={`/accueil`} className="overlay"></Link>
+        {/* <div className="overlay"></div> */}
 
         <article>
 
-            POPUP PROJET
-
-            {/* pop-up header */}
-            <div>
-                <h2>{projet[pos - 1].nom}</h2>
-            </div>
-
             {/* section img OR vid */}
-            <div>
+            <div className="view-media">
                 
                 {projet[pos - 1].hasVid ? (
                     <>
@@ -30,7 +26,6 @@ const AccueilView = () => {
                             src={`/img/${projet[pos - 1].gif}`}
                             alt={projet[pos - 1].nom}
                         />
-                        <p>voici un apercu gif</p>
                     </>
                 ) : (
                     <>
@@ -38,14 +33,25 @@ const AccueilView = () => {
                             src={`/${projet[pos - 1].img}`}
                             alt={projet[pos - 1].nom}
                         />
-                        <p>voici un apercu img</p>
                     </>
                 )}
             </div>
-            
-            {/* section info */}
-            <div>
-                <p>{projet[pos - 1].description}</p>
+
+            <div className="wrap-info">
+                {/* pop-up header */}
+                <div className="view-titre">
+                    <h2>{projet[pos - 1].nom}</h2>
+                </div>
+
+                {/* section info */}
+                <div className="view-description"> 
+                    <p>{projet[pos - 1].description}</p>
+                </div>
+
+                {/* section info */}
+                <div className="view-longDescription"> 
+                    <p>{projet[pos - 1].long_description}</p>
+                </div>
             </div>
 
         </article>

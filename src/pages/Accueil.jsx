@@ -31,7 +31,7 @@ const Accueil = ({ projet = [] }) => {
                 </div>
 
                 <div className="grid-projet">
-                    {filteredProjects.map(({ nom, description, img, gif, hasVid, logoLogi }, i) => (
+                    {filteredProjects.map(({ nom, description, long_description, img, gif, hasVid, logoLogi }, i) => (
                         <div className="vignette-projet" key={i}>
                             <Link to={`/accueil/${i + 1}`}>
                                 {hasVid ? (
@@ -56,7 +56,7 @@ const Accueil = ({ projet = [] }) => {
                                         alt="logo_logiciel"
                                     />
                                 </div>
-                                
+
                                 <div className="info-projet">
                                     <h2>{nom}</h2>
                                     <p>{description}</p>
