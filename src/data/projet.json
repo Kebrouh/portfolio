@@ -7,6 +7,16 @@
         "hasVid": false,
         "gif": "",
         "img": "facto-bee_apercu.jpg",
+        "galerie_img":[
+            "facto-bee_apercu.jpg",
+            "img_shop.png",
+            "img_transforme_monde.png",
+            "img_pompe_corrupt.png",
+            "img_ressource_hive_clay.png",
+            "img_ressource_hive_fer.png",
+            "img_ressource_hive_wood.png",
+            "img_endgame.png"
+        ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 3d game",
         "long_description": "This is a Unity 3d urp game made for my video game 5 class in team. In this project i was in charge of all of the visuals"
@@ -19,6 +29,9 @@
         "hasVid": false,
         "gif": "empoulpade_apercu.gif",
         "img": "empoulpade_apercu.jpg",
+        "galerie_img":[
+            "empoulpade_apercu.jpg"
+        ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 2d game",
         "long_description": "This is a Unity 3d"
@@ -31,6 +44,9 @@
         "hasVid": false,
         "gif": "",
         "img": "harmonize_apercu.jpg",
+        "galerie_img":[
+            "harmonize_apercu.jpg"
+        ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "React js app",
         "long_description": "This is a Unity 3d"
@@ -43,6 +59,9 @@
         "hasVid": false,
         "gif": "",
         "img": "pemana_apercu.jpg",
+        "galerie_img":[
+            "pemana_apercu.jpg"
+        ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "Vue3 website",
         "long_description": "This is a Unity 3d"
@@ -55,6 +74,9 @@
         "hasVid": false,
         "gif": "",
         "img": "cagiotti_apercu.jpg",
+        "galerie_img":[
+            "cagiotti_apercu.jpg"
+        ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "Vue3 website",
         "long_description": "This is a Unity 3d"
@@ -67,6 +89,9 @@
         "hasVid": true,
         "gif": "placeholder_gif.gif",
         "img": "no-img.png",
+        "galerie_img":[
+            "placeholder_gif.gif"
+        ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "Voici un projet de 3d",
         "long_description": "This is a Unity 3d"
@@ -79,6 +104,9 @@
         "hasVid": true,
         "gif": "placeholder_gif.gif",
         "img": "no-img.png",
+        "galerie_img":[
+            "placeholder_gif.gif"
+        ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "Voici un projet de 3d",
         "long_description": "This is a Unity 3d"
