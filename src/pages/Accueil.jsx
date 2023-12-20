@@ -31,39 +31,42 @@ const Accueil = ({ projet = [] }) => {
                 </div>
 
                 <div className="grid-projet">
-                    {filteredProjects.map(({ nom, description, long_description, img, gif, hasVid, logoLogi }, i) => (
-                        <div className="vignette-projet" key={i}>
-                            <Link to={`/accueil/${i + 1}`}>
-                                {hasVid ? (
-                                    <>
-                                        <img
-                                            src={`/img/${gif}`}
-                                            alt={nom}
-                                        />
-                                    </>
-                                ) : (
-                                    <>
-                                        <img
-                                            src={`/${img}`}
-                                            alt={nom}
-                                        />
-                                    </>
-                                )}
+                    {filteredProjects.map(({ nom, description, long_description, img, gif, hasVid, logoLogi }, i) => {
+                        const originalIndex = projet.findIndex(p => p.nom === nom); // Find original index
+                        return (
+                            <div className="vignette-projet" key={originalIndex}>
+                                <Link to={`/accueil/${originalIndex + 1}`}>
+                                    {hasVid ? (
+                                        <>
+                                            <img
+                                                src={`/img/${gif}`}
+                                                alt={nom}
+                                            />
+                                        </>
+                                    ) : (
+                                        <>
+                                            <img
+                                                src={`/${img}`}
+                                                alt={nom}
+                                            />
+                                        </>
+                                    )}
 
-                                <div className="logi-projet">
-                                    <img
-                                        src={`/${logoLogi}`}
-                                        alt="logo_logiciel"
-                                    />
-                                </div>
+                                    <div className="logi-projet">
+                                        <img
+                                            src={`/${logoLogi}`}
+                                            alt="logo_logiciel"
+                                        />
+                                    </div>
 
-                                <div className="info-projet">
-                                    <h2>{nom}</h2>
-                                    <p>{description}</p>
-                                </div>
-                            </Link>
-                        </div>
-                    ))}
+                                    <div className="info-projet">
+                                        <h2>{nom}</h2>
+                                        <p>{description}</p>
+                                    </div>
+                                </Link>
+                            </div>
+                        );
+                    })}
                 </div>
             </div>
         </div>
