@@ -30,28 +30,28 @@ const Accueil = () => {
             <div className="plateforme">
                 <ul>
                     <li>
-                        <a href="https://www.linkedin.com/in/olivier-daigneault/" target="_blank">
+                        <Link to="https://www.linkedin.com/in/olivier-daigneault/" target="_blank">
                             <p>Linkedn</p>
                             <img src="/icons8-linkedin.svg" alt="placeholder" />
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="https://www.artstation.com/olivierdaigneault8" target="_blank">
+                        <Link to="https://www.artstation.com/olivierdaigneault8" target="_blank">
                             <p>ArtStation</p>
                             <img src="/icons8-artstation.svg" alt="placeholder" />
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="https://www.behance.net/olivierdaignea1" target="_blank">
+                        <Link to="https://www.behance.net/olivierdaignea1" target="_blank">
                             <p>Behance</p>
                             <img src="/icons8-behance.svg" alt="placeholder" />
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="https://github.com/Kebrouh" target="_blank">
+                        <Link to="https://github.com/Kebrouh" target="_blank">
                             <p>GitHub</p>
                             <img src="/icons8-github.svg" alt="placeholder" />  
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
