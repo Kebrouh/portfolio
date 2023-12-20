@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import projet from "../data/projet.json";
 
@@ -7,7 +9,11 @@ import './AccueilView.css';
 
 const AccueilView = () => {
     const { pos } = useParams();
-    // console.log(photo)
+    
+    const project = projet[pos - 1];
+
+    console.log(project.galerie_img[0])
+    console.log(project.img)
 
     return (
     <div className="page-accueilView">
@@ -28,12 +34,19 @@ const AccueilView = () => {
                         />
                     </>
                 ) : (
-                    <>
-                        <img
-                            src={`/${projet[pos - 1].img}`}
-                            alt={projet[pos - 1].nom}
-                        />
-                    </>
+                    <Carousel>
+                        {project.galerie_img.map((image, index) => (
+                            <div key={index}>
+                                <img src={`/${project.galerie_img[index]}`} alt={` /${project.galerie_img[index]}`} />
+                            </div>
+                        ))}
+                    </Carousel>
+                    // <>
+                    //     <img
+                    //         src={`/${projet[pos - 1].img}`}
+                    //         alt={projet[pos - 1].nom}
+                    //     />
+                    // </>
                 )}
             </div>
 
@@ -52,6 +65,7 @@ const AccueilView = () => {
                 <div className="view-longDescription"> 
                     <p>{projet[pos - 1].long_description}</p>
                 </div>
+
             </div>
 
         </article>
