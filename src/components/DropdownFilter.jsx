@@ -13,7 +13,7 @@ const DropdownFilter = ({ types, onChangeFilter }) => {
 
     return (
         <div>
-            <label htmlFor="filter">Project: </label>
+            <label htmlFor="filter">Projects : </label>
             <select
                 name="filter"
                 value={filter}

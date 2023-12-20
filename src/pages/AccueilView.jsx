@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-import { IoArrowBackOutline } from "react-icons/io5";
+import { IoArrowBackOutline, IoEye } from "react-icons/io5";
 
 import projet from "../data/projet.json";
 
@@ -80,6 +80,20 @@ const AccueilView = () => {
                         <p>{projet[pos - 1].long_description}</p>
                     </div>
 
+                    <div className="view-link">
+                        {projet[pos - 1].hasLink ? (
+                            <>
+                                <Link to={projet[pos - 1].link} target="_blank">
+                                    <IoEye/>
+                                    <p>Check it out !</p>
+                                </Link>
+                            </>
+                        ) : (
+                            <>
+                                
+                            </>
+                        )}
+                    </div>
                 </div>
             </div>
 

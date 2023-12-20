@@ -76,7 +76,7 @@
                 margin: auto 0;
 
                 & .selected img{
-                    object-fit: cover;
+                    object-fit: contain;
                 }
 
                 & li.thumb.selected{
@@ -141,6 +141,39 @@
                     left: 0;
                     top: -1.5em;
                     background-color: white;
+                }
+            }
+            & .view-link{
+                position: relative;
+                margin-top: 2em;
+                
+                & a{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    margin-left: auto;
+                    padding: 1em;
+                    width: auto !important;
+                    border-radius: 0.5em;
+                    background-color: var(--cyan-reg);
+                    text-decoration: none;
+                    font-family: var(--paragraphe);
+                    color: inherit;
+                    
+                    &:hover{
+                        background-color: var(--cyan-pale);
+                        transition: 0.5s ease-in-out;
+                    }
+
+
+                    & svg{
+                        height: 2em;
+                        width: 2em;
+                        margin-right: 0.5em;
+                    }
+                    & p{
+                        font-weight: normal;
+                    }
                 }
             }
         }
