@@ -41,6 +41,28 @@
         flex-direction: column;
         margin-bottom: 1em;
 
+        & .cv{
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            text-align: center;
+            & p{
+                margin: 0 0.5em;
+            }
+            & a{
+                padding: 0.5em;
+                border-radius: 0.5em;
+                color: inherit;
+                text-decoration: none;
+                font-weight: bold;
+                &:hover{
+                    background-color: var(--cyan-pale);
+                    transition: 0.5s ease-in-out;
+                }
+            }
+        }
+
         &::after{
             display: block;
             position: absolute;

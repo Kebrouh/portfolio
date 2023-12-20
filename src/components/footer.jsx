@@ -1,7 +1,9 @@
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-import { IoCall, IoMail } from "react-icons/io5";
+import { IoDocumentText, IoMail } from "react-icons/io5";
+
+import DownloadCV from "./../components/DownloadCV";
 
 import './footer.css';
 
@@ -17,8 +19,8 @@ const Accueil = () => {
             <div className="contact">
                 <ul>
                     <li>
-                        <IoCall />
-                        <p>514 569-9968</p>
+                        <IoDocumentText />
+                        <DownloadCV />
                     </li>
                     <li>
                         <IoMail />
