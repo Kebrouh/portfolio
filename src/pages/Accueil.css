@@ -25,7 +25,23 @@
             margin: 0 auto 0 0;
 
             & .about{
+                position: relative;
                 width: 60%;
+                margin-left: 1em;
+
+                &::before{
+                    display: block;
+                    position: absolute;
+                    width: 225px;
+                    height: 100px;
+                    padding: 0;
+                    content: "";
+                    left: -1em;
+                    top: -1em;
+                    border-radius: 0.5em;
+                    background-color: var(--cyan-reg);
+                    z-index: -10;
+                }
 
                 & h2{
                     font-size: 1.2em;
@@ -46,8 +62,21 @@
                 flex-wrap: wrap;
                 justify-content: start;
                 align-items: end;
-                width: 40%;
+                width: auto;
 
+                &::before{
+                    display: block;
+                    position: absolute;
+                    width: 225px;
+                    height: 100px;
+                    padding: 0;
+                    content: "";
+                    left: -1em;
+                    top: -3em;
+                    border-radius: 0.5em;
+                    background-color: var(--cyan-reg);
+                    z-index: -10;
+                }
                 &::after{
                     display: block;
                     position: absolute;

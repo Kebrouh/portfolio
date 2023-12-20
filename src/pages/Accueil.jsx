@@ -29,10 +29,10 @@ const Accueil = ({ projet = [] }) => {
                 <div className="a-propos">
                     <div className="about">
                         <h2>About me :</h2>
-                        <p>My career goal is to specialize in the modeling of 3D environments and objects, as well as 3D animation. I’m very versatile in the multimedia field, from Web development to video editing. I enjoy taking on new challenges to improve my knowledge. </p>
+                        <p>My career goal is to specialize in the modeling of 3D environments and objects, as well as 3D animation. I’m very versatile in the multimedia field, from Web design to Game development and Graphic illustration. I enjoy taking on new challenges to improve my knowledge. </p>
                     </div>
                     <div className="liste-skills">
-                        <h2>Skills</h2>
+                        <h2>Skills :</h2>
                         <ul>
                             <h3>3D Modeling</h3>
                             <li>Object and character modeling</li>
