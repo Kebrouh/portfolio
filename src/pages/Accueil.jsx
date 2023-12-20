@@ -26,6 +26,40 @@ const Accueil = ({ projet = [] }) => {
             </div>
 
             <div className="section-projet">
+                <div className="a-propos">
+                    <div className="about">
+                        <h2>About me :</h2>
+                        <p>My career goal is to specialize in the modeling of 3D environments and objects, as well as 3D animation. I’m very versatile in the multimedia field, from Web development to video editing. I enjoy taking on new challenges to improve my knowledge. </p>
+                    </div>
+                    <div className="liste-skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <h3>3D Modeling</h3>
+                            <li>Object and character modeling</li>
+                            <li>3D Animation</li>
+                            <li>3D Texturing</li>
+                        </ul>
+                        <ul>
+                            <h3>Games Development</h3>
+                            <li>Video game programming</li>
+                            <li>Creation of particle systems</li>
+                            <li>Game design</li>
+                        </ul>
+                        <ul>
+                            <h3>Web Development</h3>
+                            <li>Graphic design</li>
+                            <li>Programming <br/>(HTML, CSS, JavaScript)</li>
+                            <li>Website hosting</li>
+                        </ul>
+                        <ul>
+                            <h3>Design</h3>
+                            <li>Intuitive user interface</li>
+                            <li>Intuitive user interface</li>
+                            <li>Creating attractive experiences</li>
+                        </ul>
+                    </div>
+                </div>
+
                 <div className="filter">
                     <DropdownFilter types={projectTypes} onChangeFilter={handleChangeFilter} />
                 </div>
