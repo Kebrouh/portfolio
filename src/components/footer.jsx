@@ -1,13 +1,20 @@
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-import { IoDocumentText, IoMail } from "react-icons/io5";
+import { IoDocumentText, IoMail, IoArrowUpOutline } from "react-icons/io5";
 
 import DownloadCV from "./../components/DownloadCV";
 
 import './footer.css';
 
 const Accueil = () => {
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
 
     return (
         <div className="footer">
@@ -57,6 +64,10 @@ const Accueil = () => {
                     </li>
                 </ul>
             </div>
+
+            <button onClick={scrollToTop} className="back-to-top">
+                <IoArrowUpOutline/>
+            </button>
 
         </div>
     );
