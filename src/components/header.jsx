@@ -17,6 +17,10 @@ const Accueil = () => {
                 <p>3D creator - Multimedia integrator</p>
             </div>
 
+            <div className="section-photo">
+                <img src="/moi.jpg" alt="photo_moi" />
+            </div>
+
 
         </div>
     );
