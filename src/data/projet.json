@@ -1,9 +1,63 @@
 [
     {
+        "nom": "Atmosphäre value",
+        "type": "3d",
+        "hasLink": true,
+        "link": "https://www.behance.net/gallery/151727349/Valeurs-entreprise-3d",
+        "hasVid": false,
+        "gif": "",
+        "img": "valeur.jpg",
+        "galerie_img":[
+            "valeur.jpg",
+            "valeur_2d.jpg",
+            "valeur_1.jpg",
+            "valeur_2.jpg",
+            "valeur_3.jpg",
+            "valeur_4.jpg"
+        ],
+        "logoLogi": "icons8-3ds-max.svg",
+        "description": "3d animation",
+        "long_description": "Here is a 3D animation created using Autodesk 3ds Max. During my internship at Atmosphäre, I was tasked with transforming the company values into a 3D animation. I began with 2D flat icon illustrations and presented my approach on how I intended to animate them. Once everything was finalized, I commenced the work, and the final result was incorporated into company presentations."
+    },
+    {
+        "nom": "Small room w/furniture",
+        "type": "3d",
+        "hasLink": true,
+        "link": "https://www.behance.net/gallery/184776327/A-small-room-that-i-made-for-fun",
+        "hasVid": false,
+        "gif": "",
+        "img": "room.jpg",
+        "galerie_img":[
+            "room.jpg",
+            "divan.jpg",
+            "meuble_tv.jpg",
+            "biblio.jpg",
+            "bureau.jpg"
+        ],
+        "logoLogi": "icons8-3ds-max.svg",
+        "description": "3d modeling",
+        "long_description": "This is a Unity 3d"
+    },
+    {
+        "nom": "Bedroom",
+        "type": "3d",
+        "hasLink": true,
+        "link": "https://www.behance.net/gallery/184776327/A-small-room-that-i-made-for-fun",
+        "hasVid": false,
+        "gif": "",
+        "img": "bedroom.jpg",
+        "galerie_img":[
+            "bedroom.jpg"
+        ],
+        "logoLogi": "icons8-3ds-max.svg",
+        "description": "3d modeling",
+        "long_description": "This is a Unity 3d"
+    },
+    {
         "nom": "Facto-bee",
         "type": "game",
         "hasLink": false,
-        "link": "https://jtremblay.tim-cstj.ca/jeu4/2023/promo/j5/",
+        "link": "",
         "hasVid": false,
         "gif": "",
         "img": "facto-bee_apercu.jpg",
@@ -27,13 +81,49 @@
         "hasLink": true,
         "link": "https://jtremblay.tim-cstj.ca/jeu4/2023/promo/j5/",
         "hasVid": false,
-        "gif": "empoulpade_apercu.gif",
+        "gif": "",
         "img": "empoulpade_apercu.jpg",
         "galerie_img":[
-            "empoulpade_apercu.jpg"
+            "empoulpade_apercu.jpg",
+            "jeux_intro.jpg"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 2d game",
+        "long_description": "This is a Unity 3d"
+    },
+    {
+        "nom": "Escape game",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "temple_final_apercu.jpg",
+        "galerie_img":[
+            "temple_final_apercu.jpg",
+            "temple_final_tuto.jpg",
+            "temple_final_jeu.jpg"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity VR game",
+        "long_description": "This is a Unity 3d"
+    },
+    {
+        "nom": "Mazon",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "office_close.jpg",
+        "galerie_img":[
+            "office_close.jpg",
+            "office.jpg",
+            "vamos_a_la_playa.jpg",
+            "guillermo.jpg"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity VR game",
         "long_description": "This is a Unity 3d"
     },
     {
@@ -79,36 +169,6 @@
         ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "Vue3 website",
-        "long_description": "This is a Unity 3d"
-    },
-    {
-        "nom": "projet 3",
-        "type": "globaglarb",
-        "hasLink": true,
-        "link": "https://jtremblay.tim-cstj.ca/jeu4/2023/promo/j5/",
-        "hasVid": true,
-        "gif": "placeholder_gif.gif",
-        "img": "no-img.png",
-        "galerie_img":[
-            "placeholder_gif.gif"
-        ],
-        "logoLogi": "icons8-visual-studio.svg",
-        "description": "Voici un projet de 3d",
-        "long_description": "This is a Unity 3d"
-    },
-    {
-        "nom": "projet 3",
-        "type": "globaglarb",
-        "hasLink": true,
-        "link": "https://jtremblay.tim-cstj.ca/jeu4/2023/promo/j5/",
-        "hasVid": true,
-        "gif": "placeholder_gif.gif",
-        "img": "no-img.png",
-        "galerie_img":[
-            "placeholder_gif.gif"
-        ],
-        "logoLogi": "icons8-visual-studio.svg",
-        "description": "Voici un projet de 3d",
         "long_description": "This is a Unity 3d"
     }
 ]
