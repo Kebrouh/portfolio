@@ -14,6 +14,9 @@
             "fac_iron.png",
             "fac_wood.png",
             "fac_pompe.png",
+            "fac_gun.png",
+            "fac_knife.png",
+            "fac_cell.png",
             "mini_bee_all.png",
             "mini_bee_clay.png",
             "mini_bee_iron.png",
@@ -22,7 +25,7 @@
             "mini_bee_base.png"
         ],
         "logoLogi": "icons8-blender.svg",
-        "description": "Unity 3d game",
+        "description": "3d assets",
         "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
     },
     {
