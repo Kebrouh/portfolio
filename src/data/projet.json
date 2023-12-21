@@ -1,5 +1,53 @@
 [
     {
+        "nom": "Facto-bee Assets",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "facto-bee_assets.jpg",
+        "galerie_img":[
+            "facto-bee_assets.jpg",
+            "fac_shop.png",
+            "fac_clay.png",
+            "fac_iron.png",
+            "fac_wood.png",
+            "fac_pompe.png",
+            "mini_bee_all.png",
+            "mini_bee_clay.png",
+            "mini_bee_iron.png",
+            "mini_bee_wood.png",
+            "mini_bee_sweater.png",
+            "mini_bee_base.png"
+        ],
+        "logoLogi": "icons8-blender.svg",
+        "description": "Unity 3d game",
+        "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
+    },
+    {
+        "nom": "Facto-bee",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "facto-bee_apercu.jpg",
+        "galerie_img":[
+            "facto-bee_apercu.jpg",
+            "img_shop.png",
+            "img_transforme_monde.png",
+            "img_pompe_corrupt.png",
+            "img_ressource_hive_clay.png",
+            "img_ressource_hive_fer.png",
+            "img_ressource_hive_wood.png",
+            "img_endgame.png"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity 3d game",
+        "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
+    },
+    {
         "nom": "Atmosphäre value",
         "type": "3d",
         "hasLink": true,
@@ -68,28 +116,6 @@
         "logoLogi": "icons8-3ds-max.svg",
         "description": "3d modeling",
         "long_description": "I created this bedroom model using 3ds Max for my 3D class #1, where I replicated some of my home furniture and added details to showcase how I envision my ideal room. I believe I achieved a quite pleasant result."
-    },
-    {
-        "nom": "Facto-bee",
-        "type": "game",
-        "hasLink": false,
-        "link": "",
-        "hasVid": false,
-        "gif": "",
-        "img": "facto-bee_apercu.jpg",
-        "galerie_img":[
-            "facto-bee_apercu.jpg",
-            "img_shop.png",
-            "img_transforme_monde.png",
-            "img_pompe_corrupt.png",
-            "img_ressource_hive_clay.png",
-            "img_ressource_hive_fer.png",
-            "img_ressource_hive_wood.png",
-            "img_endgame.png"
-        ],
-        "logoLogi": "icons8-unity.svg",
-        "description": "Unity 3d game",
-        "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
     },
     {
         "nom": "Empoulpade",
