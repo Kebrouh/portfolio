@@ -1,5 +1,54 @@
 [
     {
+        "nom": "Spark of the Beyond",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "spark_sceneIntro.jpg",
+        "galerie_img":[
+            "spark_sceneIntro.jpg",
+            "spark_sceneOutro.jpg"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity 3d game",
+        "long_description": "projet 4, 3 weeks, individual project, lots of 3d modelling and texturing, small chill game"
+    },
+    {
+        "nom": "Drifty",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "p3_trueno.jpg",
+        "galerie_img":[
+            "p3_trueno.jpg",
+            "p3_sceneIntro.jpg",
+            "p3_game.jpg",
+            "p3_sceneOutro.jpg"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity 3d game",
+        "long_description": "project 3, 2 weeks, team of 2, with constraint and theme, weird control, evrything falls, car drift game, i was in charge of the artistic side"
+    },
+    {
+        "nom": "Time Tourism",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "facto-bee_assets.jpg",
+        "galerie_img":[
+            "facto-bee_assets.jpg"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity VR game",
+        "long_description": "1 week project, team of 2, vr unity game, "
+    },
+    {
         "nom": "Facto-bee Assets",
         "type": "3d",
         "hasLink": false,
