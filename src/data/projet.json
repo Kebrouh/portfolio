@@ -86,9 +86,15 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "img/no-img.png",
+        "img": "p1_robot.jpg",
         "galerie_img":[
-            "img/no-img.png"
+            "p1_robot.jpg",
+            "p1_scene_1.jpg",
+            "p1_scene_2.jpg",
+            "p1_scene_3.jpg",
+            "p1_scene_4.jpg",
+            "p1_scene_5.jpg",
+            "p1_scene_6.jpg"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity VR game",
@@ -101,9 +107,12 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "img/no-img.png",
+        "img": "p1_scene_1.jpg",
         "galerie_img":[
-            "img/no-img.png"
+            "p1_scene_1.jpg",
+            "p1_scene_3.jpg",
+            "p1_scene_5.jpg",
+            "p1_scene_6.jpg"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
