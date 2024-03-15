@@ -234,8 +234,8 @@
     {
         "nom": "Bedroom",
         "type": "3d",
-        "hasLink": true,
-        "link": "https://www.behance.net/gallery/184776327/A-small-room-that-i-made-for-fun",
+        "hasLink": false,
+        "link": "",
         "hasVid": false,
         "gif": "",
         "img": "bedroom.jpg",
