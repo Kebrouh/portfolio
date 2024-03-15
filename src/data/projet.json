@@ -86,12 +86,27 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "facto-bee_assets.jpg",
+        "img": "img/no-img.png",
         "galerie_img":[
-            "facto-bee_assets.jpg"
+            "img/no-img.png"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity VR game",
+        "long_description": "1 week project, team of 2, vr unity game, "
+    },
+    {
+        "nom": "Time Tourism Assets",
+        "type": "3d",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "img/no-img.png",
+        "galerie_img":[
+            "img/no-img.png"
+        ],
+        "logoLogi": "icons8-blender.svg",
+        "description": "3d assets",
         "long_description": "1 week project, team of 2, vr unity game, "
     },
     {
