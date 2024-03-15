@@ -15,6 +15,21 @@
             "spark_game_4.jpg",
             "spark_game_6.jpg",
             "spark_game_5.jpg",
+            "spark_sceneOutro.jpg"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity 3d game",
+        "long_description": "projet 4, 3 weeks, individual project, lots of 3d modelling and texturing, small chill game"
+    },
+    {
+        "nom": "Spark of the Beyond Assets",
+        "type": "3d",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "spark_3d_room_texture.jpg",
+        "galerie_img":[
             "spark_3d_biblio.jpg",
             "spark_3d_biblio_texture.jpg",
             "spark_3d_lit.jpg",
@@ -22,11 +37,10 @@
             "spark_3d_table.jpg",
             "spark_3d_table_texture.jpg",
             "spark_3d_room.jpg",
-            "spark_3d_room_texture.jpg",
-            "spark_sceneOutro.jpg"
+            "spark_3d_room_texture.jpg"
         ],
-        "logoLogi": "icons8-unity.svg",
-        "description": "Unity 3d game",
+        "logoLogi": "icons8-blender.svg",
+        "description": "3d assets",
         "long_description": "projet 4, 3 weeks, individual project, lots of 3d modelling and texturing, small chill game"
     },
     {
@@ -63,6 +77,28 @@
         "long_description": "1 week project, team of 2, vr unity game, "
     },
     {
+        "nom": "Facto-bee",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "facto-bee_apercu.jpg",
+        "galerie_img":[
+            "facto-bee_apercu.jpg",
+            "img_shop.png",
+            "img_transforme_monde.png",
+            "img_pompe_corrupt.png",
+            "img_ressource_hive_clay.png",
+            "img_ressource_hive_fer.png",
+            "img_ressource_hive_wood.png",
+            "img_endgame.png"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity 3d game",
+        "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
+    },
+    {
         "nom": "Facto-bee Assets",
         "type": "3d",
         "hasLink": false,
@@ -89,28 +125,6 @@
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
-        "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
-    },
-    {
-        "nom": "Facto-bee",
-        "type": "game",
-        "hasLink": false,
-        "link": "",
-        "hasVid": false,
-        "gif": "",
-        "img": "facto-bee_apercu.jpg",
-        "galerie_img":[
-            "facto-bee_apercu.jpg",
-            "img_shop.png",
-            "img_transforme_monde.png",
-            "img_pompe_corrupt.png",
-            "img_ressource_hive_clay.png",
-            "img_ressource_hive_fer.png",
-            "img_ressource_hive_wood.png",
-            "img_endgame.png"
-        ],
-        "logoLogi": "icons8-unity.svg",
-        "description": "Unity 3d game",
         "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
     },
     {
