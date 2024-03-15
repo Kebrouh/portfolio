@@ -50,15 +50,33 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "p3_trueno.jpg",
+        "img": "p3_sceneIntro.jpg",
         "galerie_img":[
-            "p3_trueno.jpg",
             "p3_sceneIntro.jpg",
             "p3_game.jpg",
+            "p3_game_1.jpg",
             "p3_sceneOutro.jpg"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 3d game",
+        "long_description": "project 3, 2 weeks, team of 2, with constraint and theme, weird control, evrything falls, car drift game, i was in charge of the artistic side"
+    },
+    {
+        "nom": "Drifty Assets",
+        "type": "3d",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "p3_trueno.jpg",
+        "galerie_img":[
+            "p3_trueno.jpg",
+            "p3_3d_ligne_1.jpg",
+            "p3_3d_ligne_2.jpg",
+            "p3_3d_courbe_1.jpg"
+        ],
+        "logoLogi": "icons8-blender.svg",
+        "description": "3d assets",
         "long_description": "project 3, 2 weeks, team of 2, with constraint and theme, weird control, evrything falls, car drift game, i was in charge of the artistic side"
     },
     {
