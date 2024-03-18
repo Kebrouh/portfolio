@@ -1,5 +1,146 @@
 [
     {
+        "nom": "Spark of the Beyond",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "spark_sceneIntro.jpg",
+        "galerie_img":[
+            "spark_sceneIntro.jpg",
+            "spark_game_1.jpg",
+            "spark_game_2.jpg",
+            "spark_game_3.jpg",
+            "spark_game_4.jpg",
+            "spark_game_6.jpg",
+            "spark_game_5.jpg",
+            "spark_sceneOutro.jpg"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity 3d game",
+        "long_description": "3D Unity game, an individual project developed over the course of 3 weeks, heavily inspired by the game 'It Takes Two'. It features a chill exploration and puzzle gameplay. The main challenge during development was managing the considerable number of realistic 3D assets and creating textures for each of them."
+    },
+    {
+        "nom": "Spark of the Beyond Assets",
+        "type": "3d",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "spark_3d_room_texture.jpg",
+        "galerie_img":[
+            "spark_3d_biblio.jpg",
+            "spark_3d_biblio_texture.jpg",
+            "spark_3d_lit.jpg",
+            "spark_3d_lit_texture.jpg",
+            "spark_3d_table.jpg",
+            "spark_3d_table_texture.jpg",
+            "spark_3d_room.jpg",
+            "spark_3d_room_texture.jpg"
+        ],
+        "logoLogi": "icons8-blender.svg",
+        "description": "3d assets",
+        "long_description": "Quick peek at all the 3d objects and texture from the game Spark of the Beyond."
+    },
+    {
+        "nom": "Drifty",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "p3_sceneIntro.jpg",
+        "galerie_img":[
+            "p3_sceneIntro.jpg",
+            "p3_game.jpg",
+            "p3_game_1.jpg",
+            "p3_sceneOutro.jpg"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity 3d game",
+        "long_description": "3D Unity game, a project developed by a team of two over the span of 2 weeks. Centered around the theme 'Everything falls' and incorporating the constraint of unusual controls, we created a drift game set in a city with collapsing buildings and mines. The game features split car control for 2 players. For this project, my responsibilities included overseeing all visual aspects of the game: designing 3D models, textures, particles, and UI elements."
+    },
+    {
+        "nom": "Drifty Assets",
+        "type": "3d",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "p3_trueno.jpg",
+        "galerie_img":[
+            "p3_trueno.jpg",
+            "p3_3d_ligne_1.jpg",
+            "p3_3d_ligne_2.jpg",
+            "p3_3d_courbe_1.jpg"
+        ],
+        "logoLogi": "icons8-blender.svg",
+        "description": "3d assets",
+        "long_description": "Quick peek at all the 3d objects and texture from the game Drifty."
+    },
+    {
+        "nom": "Time Tourism",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "p1_robot.jpg",
+        "galerie_img":[
+            "p1_robot.jpg",
+            "p1_scene_1.jpg",
+            "p1_scene_2.jpg",
+            "p1_scene_3.jpg",
+            "p1_scene_4.jpg",
+            "p1_scene_5.jpg",
+            "p1_scene_6.jpg"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity VR game",
+        "long_description": "A VR Unity game, a project developed by a team of two over the span of 1 week. Inspired by the theme 'Out of Place Remnants' and incorporating the constraint of offset tourism, we created a guided VR experience spanning across different time periods. For this project, my responsibilities included creating 3D environments, textures, particles, and providing voice acting."
+    },
+    {
+        "nom": "Time Tourism Assets",
+        "type": "3d",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "p1_scene_1.jpg",
+        "galerie_img":[
+            "p1_scene_1.jpg",
+            "p1_scene_3.jpg",
+            "p1_scene_5.jpg",
+            "p1_scene_6.jpg"
+        ],
+        "logoLogi": "icons8-blender.svg",
+        "description": "3d assets",
+        "long_description": "Quick peek at all the 3d objects and texture that i created from the game Time Tourism."
+    },
+    {
+        "nom": "Facto-bee",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "facto-bee_apercu.jpg",
+        "galerie_img":[
+            "facto-bee_apercu.jpg",
+            "img_shop.png",
+            "img_transforme_monde.png",
+            "img_pompe_corrupt.png",
+            "img_ressource_hive_clay.png",
+            "img_ressource_hive_fer.png",
+            "img_ressource_hive_wood.png",
+            "img_endgame.png"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity 3d game",
+        "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
+    },
+    {
         "nom": "Facto-bee Assets",
         "type": "3d",
         "hasLink": false,
@@ -29,28 +170,6 @@
         "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
     },
     {
-        "nom": "Facto-bee",
-        "type": "game",
-        "hasLink": false,
-        "link": "",
-        "hasVid": false,
-        "gif": "",
-        "img": "facto-bee_apercu.jpg",
-        "galerie_img":[
-            "facto-bee_apercu.jpg",
-            "img_shop.png",
-            "img_transforme_monde.png",
-            "img_pompe_corrupt.png",
-            "img_ressource_hive_clay.png",
-            "img_ressource_hive_fer.png",
-            "img_ressource_hive_wood.png",
-            "img_endgame.png"
-        ],
-        "logoLogi": "icons8-unity.svg",
-        "description": "Unity 3d game",
-        "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
-    },
-    {
         "nom": "Atmosphäre value",
         "type": "3d",
         "hasLink": true,
@@ -69,6 +188,22 @@
         "logoLogi": "icons8-3ds-max.svg",
         "description": "3d animation",
         "long_description": "Here is a 3D animation created using Autodesk 3ds Max. During my internship at Atmosphäre, I was tasked with transforming the company values into a 3D animation. I began with 2D flat icon illustrations and presented my approach on how I intended to animate them. Once everything was finalized, I commenced the work, and the final result was incorporated into company presentations."
+    },
+    {
+        "nom": "Banana v2",
+        "type": "3d",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "banana_v01_buildingR.jpg",
+        "galerie_img":[
+            "banana_v01_buildingR.jpg",
+            "banana_v01_barrel.jpg"
+        ],
+        "logoLogi": "icons8-blender.svg",
+        "description": "3d modeling",
+        "long_description": "The sequel to the 'Street' project that i did in my first 3d class, since they made a remake of the map Inferno in Counter Strike 2, i wanted to try to reproduce this new version with my current skills in 3d. ***It is an ongoing project***"
     },
     {
         "nom": "Street",
@@ -108,8 +243,8 @@
     {
         "nom": "Bedroom",
         "type": "3d",
-        "hasLink": true,
-        "link": "https://www.behance.net/gallery/184776327/A-small-room-that-i-made-for-fun",
+        "hasLink": false,
+        "link": "",
         "hasVid": false,
         "gif": "",
         "img": "bedroom.jpg",
