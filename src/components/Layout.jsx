@@ -11,7 +11,7 @@ const Layout = () => {
 
             <Waves
                 // lineColor="rgba(38, 39, 44, 1)"
-                lineColor="rgba(47, 48, 53, 1)"
+                lineColor="rgba(53, 54, 59, 1)"
                 backgroundColor="#2A2B30"
                 waveSpeedX={0.05}
                 waveSpeedY={0.01}
