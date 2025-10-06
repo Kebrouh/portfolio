@@ -167,6 +167,7 @@
                         width: 300px;
                         height: 300px;
                         object-fit: cover;
+                        transition: all 0.3s ease;  /*test*/
                     }
                     & .logi-projet{
                         position: absolute;
@@ -204,7 +205,6 @@
 
                 &:hover{
                     &>a>img{
-                        transition-duration: 0.3s;
                         transform: scale(1.05);
                     }
                 }
