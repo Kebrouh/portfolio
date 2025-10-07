@@ -3,6 +3,8 @@ import { useParams } from "react-router-dom";
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
+import Particles from '../components/Particles'; //anim bg
+
 import { IoArrowBackOutline, IoEye } from "react-icons/io5";
 
 import projet from "../data/projet.json";
@@ -25,6 +27,20 @@ const AccueilView = () => {
 
         <article>
             <div className="anchor">
+
+                <div style={{ width: '100%', height: '100%', position: 'absolute' }}>
+                    <Particles
+                        // particleColors={['#ffffff', '#ffffff', '#ffffff']}
+                        particleColors={['#1b4848', '#1b4848', '#1b4848']}
+                        particleCount={100}
+                        particleSpread={10}
+                        speed={0.1}
+                        particleBaseSize={300}
+                        moveParticlesOnHover={true}
+                        alphaParticles={true}
+                        disableRotation={false}
+                    />
+                </div>
 
                 <Link to={`/accueil`} className="retour">
                     <IoArrowBackOutline/>

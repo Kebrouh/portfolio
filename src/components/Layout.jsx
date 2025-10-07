@@ -1,6 +1,7 @@
 import Header from "./header";
 import Footer from "./footer";
-import Waves from './Waves';    //test
+
+import Waves from './Waves';    //anim bg
 
 import { Outlet } from "react-router-dom";
 
@@ -11,7 +12,7 @@ const Layout = () => {
 
             <Waves
                 // lineColor="rgba(38, 39, 44, 1)"
-                lineColor="rgba(53, 54, 59, 1)"
+                lineColor="rgba(56, 57, 62, 1)"
                 backgroundColor="#2A2B30"
                 waveSpeedX={0.05}
                 waveSpeedY={0.01}
