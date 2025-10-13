@@ -60,24 +60,6 @@
         "long_description": "Quick peek at all the 3d objects and texture from the game Spark of the Beyond."
     },
     {
-        "nom": "Drifty",
-        "type": "game",
-        "hasLink": false,
-        "link": "",
-        "hasVid": false,
-        "gif": "",
-        "img": "p3_sceneIntro.jpg",
-        "galerie_img":[
-            "p3_sceneIntro.jpg",
-            "p3_game.jpg",
-            "p3_game_1.jpg",
-            "p3_sceneOutro.jpg"
-        ],
-        "logoLogi": "icons8-unity.svg",
-        "description": "Unity 3d game",
-        "long_description": "3D Unity game, a project developed by a team of two over the span of 2 weeks. Centered around the theme 'Everything falls' and incorporating the constraint of unusual controls, we created a drift game set in a city with collapsing buildings and mines. The game features split car control for 2 players. For this project, my responsibilities included overseeing all visual aspects of the game: designing 3D models, textures, particles, and UI elements."
-    },
-    {
         "nom": "Drifty Assets",
         "type": "3d",
         "hasLink": false,
@@ -94,67 +76,6 @@
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
         "long_description": "Quick peek at all the 3d objects and texture from the game Drifty."
-    },
-    {
-        "nom": "Time Tourism",
-        "type": "game",
-        "hasLink": false,
-        "link": "",
-        "hasVid": false,
-        "gif": "",
-        "img": "p1_robot.jpg",
-        "galerie_img":[
-            "p1_robot.jpg",
-            "p1_scene_1.jpg",
-            "p1_scene_2.jpg",
-            "p1_scene_3.jpg",
-            "p1_scene_4.jpg",
-            "p1_scene_5.jpg",
-            "p1_scene_6.jpg"
-        ],
-        "logoLogi": "icons8-unity.svg",
-        "description": "Unity VR game",
-        "long_description": "A VR Unity game, a project developed by a team of two over the span of 1 week. Inspired by the theme 'Out of Place Remnants' and incorporating the constraint of offset tourism, we created a guided VR experience spanning across different time periods. For this project, my responsibilities included creating 3D environments, textures, particles, and providing voice acting."
-    },
-    {
-        "nom": "Time Tourism Assets",
-        "type": "3d",
-        "hasLink": false,
-        "link": "",
-        "hasVid": false,
-        "gif": "",
-        "img": "p1_scene_1.jpg",
-        "galerie_img":[
-            "p1_scene_1.jpg",
-            "p1_scene_3.jpg",
-            "p1_scene_5.jpg",
-            "p1_scene_6.jpg"
-        ],
-        "logoLogi": "icons8-blender.svg",
-        "description": "3d assets",
-        "long_description": "Quick peek at all the 3d objects and texture that i created from the game Time Tourism."
-    },
-    {
-        "nom": "Facto-bee",
-        "type": "game",
-        "hasLink": false,
-        "link": "",
-        "hasVid": false,
-        "gif": "",
-        "img": "facto-bee_apercu.jpg",
-        "galerie_img":[
-            "facto-bee_apercu.jpg",
-            "img_shop.png",
-            "img_transforme_monde.png",
-            "img_pompe_corrupt.png",
-            "img_ressource_hive_clay.png",
-            "img_ressource_hive_fer.png",
-            "img_ressource_hive_wood.png",
-            "img_endgame.png"
-        ],
-        "logoLogi": "icons8-unity.svg",
-        "description": "Unity 3d game",
-        "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
     },
     {
         "nom": "Facto-bee Assets",
@@ -206,57 +127,6 @@
         "long_description": "Here is a 3D animation created using Autodesk 3ds Max. During my internship at Atmosphäre, I was tasked with transforming the company values into a 3D animation. I began with 2D flat icon illustrations and presented my approach on how I intended to animate them. Once everything was finalized, I commenced the work, and the final result was incorporated into company presentations."
     },
     {
-        "nom": "Banana v2",
-        "type": "3d",
-        "hasLink": false,
-        "link": "",
-        "hasVid": false,
-        "gif": "",
-        "img": "banana_v01_buildingR.jpg",
-        "galerie_img":[
-            "banana_v01_buildingR.jpg",
-            "banana_v01_barrel.jpg"
-        ],
-        "logoLogi": "icons8-blender.svg",
-        "description": "3d modeling",
-        "long_description": "The sequel to the 'Street' project that i did in my first 3d class, since they made a remake of the map Inferno in Counter Strike 2, i wanted to try to reproduce this new version with my current skills in 3d. ***It is an ongoing project***"
-    },
-    {
-        "nom": "Street",
-        "type": "3d",
-        "hasLink": true,
-        "link": "https://tim-cstj.ca/meilleures-creations-3d-automne-2020/#bwg5/199",
-        "hasVid": false,
-        "gif": "",
-        "img": "ruelle.jpg",
-        "galerie_img":[
-            "ruelle.jpg",
-            "banana.avif"
-        ],
-        "logoLogi": "icons8-3ds-max.svg",
-        "description": "3d modeling",
-        "long_description": "This is a 3D render of a street that I modeled, textured, and edited as part of my 3D #1 class project. Drawing inspiration from the game CS:GO, specifically the 'banana' hallway in the inferno map, I aimed to recreate a similar atmosphere. Given that this was one of my initial projects while learning Autodesk 3ds Max, I am pleased with the results. Now, with CS2 released and the inferno map getting a remake, I am excited about the prospect of applying my current 3D skills to recreate the new 'banana' area."
-    },
-    {
-        "nom": "Small room w/furniture",
-        "type": "3d",
-        "hasLink": true,
-        "link": "https://www.behance.net/gallery/184776327/A-small-room-that-i-made-for-fun",
-        "hasVid": false,
-        "gif": "",
-        "img": "room.jpg",
-        "galerie_img":[
-            "room.jpg",
-            "divan.jpg",
-            "meuble_tv.jpg",
-            "biblio.jpg",
-            "bureau.jpg"
-        ],
-        "logoLogi": "icons8-3ds-max.svg",
-        "description": "3d modeling",
-        "long_description": "I modeled this small room in 3ds Max for fun, drawing inspiration from some of my home furniture and arranging it in a way I would like my living room to be."
-    },
-    {
         "nom": "Bedroom",
         "type": "3d",
         "hasLink": false,
@@ -289,41 +159,6 @@
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 2d game",
         "long_description": "I collaborated with a teammate to create a 2D game for our video game class #4. Taking on the role of visual design lead, I handled various aspects, including character design, tilemap creation, UI development, and more. Additionally, I played a crucial role in defining the game's direction and mechanics.\n\n This project was particularly enjoyable for me as it marked my first experience using Animate for character rigging and animation. I successfully developed a unique visual style and became adept at animating non-humanoid characters. Working closely with my teammates, we introduced engaging features like wall jumps and a sophisticated particle system, adding depth and excitement to the gameplay."
-    },
-    {
-        "nom": "Escape game",
-        "type": "game",
-        "hasLink": false,
-        "link": "",
-        "hasVid": false,
-        "gif": "",
-        "img": "temple_final_apercu.jpg",
-        "galerie_img":[
-            "temple_final_apercu.jpg",
-            "temple_final_tuto.jpg",
-            "temple_final_jeu.jpg"
-        ],
-        "logoLogi": "icons8-unity.svg",
-        "description": "Unity VR game",
-        "long_description": "I collaborated with my teammates to develop a VR escape room game for our Techno-Émergente class. Taking the lead in visual design, I was responsible for creating the entire environment and assets for the game, including 3D models and textures. Additionally, I played a key role in defining the game's direction and mechanics. This project was particularly exciting for me as it marked my first foray into creating a fully playable 3D environment. I focused on crafting a dark cave/temple-style environment, ensuring that the assets complemented the overall atmosphere of the game."
-    },
-    {
-        "nom": "Mazon",
-        "type": "game",
-        "hasLink": false,
-        "link": "",
-        "hasVid": false,
-        "gif": "",
-        "img": "office_close.jpg",
-        "galerie_img":[
-            "office_close.jpg",
-            "office.jpg",
-            "vamos_a_la_playa.jpg",
-            "guillermo.jpg"
-        ],
-        "logoLogi": "icons8-unity.svg",
-        "description": "Unity VR game",
-        "long_description": "In the Techno-Emergent class, my teammate and I worked on a VR escape room game. I handled all the 3D modeling, textures, and game mechanics. It was my first time doing 3D modeling for a game, and though it was basic, it was a fun experience."
     },
     {
         "nom": "Harmonize",
@@ -359,21 +194,5 @@
         "logoLogi": "icons8-visual-studio.svg",
         "description": "Vue3 website",
         "long_description": "I created a website using the Vue 3 framework, hosted on GitHub Pages with a custom domain name. I independently coded the entire website and implemented reusable components for easy building additions through a .json internal database. Additionally, I integrated Google Analytics to help the client track user traffic while experimenting with various marketing methods. This project was part of my internship at Pemana, aimed at promoting the buildings and quays available for rent by the company."
-    },
-    {
-        "nom": "Traiteur Cagiotti",
-        "type": "web",
-        "hasLink": true,
-        "link": "https://traiteurcagiotti.ca/#/",
-        "hasVid": false,
-        "gif": "",
-        "img": "cagiotti_apercu.jpg",
-        "galerie_img":[
-            "cagiotti_apercu.jpg",
-            "cag_menu.png"
-        ],
-        "logoLogi": "icons8-visual-studio.svg",
-        "description": "Vue3 website",
-        "long_description": "I developed a website using the Vue 3 framework, hosted on GitHub Pages with a custom domain name. I handled the entire coding process, implementing reusable components to simplify meal modifications through a .json internal database. I integrated Google Analytics to assist the client in monitoring user traffic during various marketing experiments. Additionally, I incorporated an email form to facilitate customer communication and allow them to place orders directly on the website. The website also featured a weekly rotation of meals across four groups. This project was part of my internship at Pemana, focused on promoting the company's catering services."
     }
 ]
