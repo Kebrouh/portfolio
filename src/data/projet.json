@@ -16,6 +16,59 @@
         "long_description": "Quick concept of a Kirby Star-Crossed World cog transformation figure. My girlfriend has the collection of the actual Bandai figure from Kirby and the Forgotten Land and so I wanted to try and make some from the DLC with the new copy and transformation to try and 3D print."
     },
     {
+        "nom": "Shurima sword",
+        "type": "3d",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "shurima_sword_global_v1.png",
+        "galerie_img":[
+            "shurima_sword_global_v1.png",
+            "shurima_sword_topview_v1.png",
+            "shurima_sword_topo_v1.jpg",
+            "shurima_logo_01.png"
+        ],
+        "logoLogi": "icons8-blender.svg",
+        "description": "3d assets",
+        "long_description": "I recreated the shurima logo in 3d and then incorporated it to the hilt of a sword that fitted."
+    },
+    {
+        "nom": "Klingklang",
+        "type": "3d",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "render_static_v1_1x1.jpg",
+        "galerie_img":[
+            "render_static_v1_1x1.jpg"
+        ],
+        "logoLogi": "icons8-blender.svg",
+        "description": "3d assets",
+        "long_description": "Short test of a 3d animation, simple textures and presentation with the pokemon klingklang."
+    },
+    {
+        "nom": "Logo 3d prints",
+        "type": "3d",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "team_harmony_white.jpg",
+        "galerie_img":[
+            "team_harmony_white.jpg",
+            "team_harmony_fest.jpg",
+            "harmony_logo_color.jpg",
+            "harmony_logo_fest.jpg",
+            "logo_full_square.jpg",
+            "go_fest_badge.jpg"
+        ],
+        "logoLogi": "icons8-blender.svg",
+        "description": "3d prints",
+        "long_description": "3d logo model designed for Team Harmony, a local Pokémon GO community. The project includes a 3d reproduction of their 2d logo and a custom variant made for an in-game event. Both models were 3d printed multiple times and finished with primer, paint, and protective coating."
+    },
+    {
         "nom": "Spark of the Beyond",
         "type": "game",
         "hasLink": false,
@@ -104,6 +157,28 @@
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
+        "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
+    },
+    {
+        "nom": "Facto-bee",
+        "type": "game",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "facto-bee_apercu.jpg",
+        "galerie_img":[
+            "facto-bee_apercu.jpg",
+            "img_shop.png",
+            "img_transforme_monde.png",
+            "img_pompe_corrupt.png",
+            "img_ressource_hive_clay.png",
+            "img_ressource_hive_fer.png",
+            "img_ressource_hive_wood.png",
+            "img_endgame.png"
+        ],
+        "logoLogi": "icons8-unity.svg",
+        "description": "Unity 3d game",
         "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
     },
     {
