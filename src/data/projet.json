@@ -18,8 +18,8 @@
     {
         "nom": "Shurima sword",
         "type": "3d",
-        "hasLink": false,
-        "link": "",
+        "hasLink": true,
+        "link": "https://www.artstation.com/artwork/rlVxO6",
         "hasVid": false,
         "gif": "",
         "img": "shurima_sword_global_v1.png",
@@ -31,18 +31,19 @@
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
-        "long_description": "I recreated the shurima logo in 3d and then incorporated it to the hilt of a sword that fitted."
+        "long_description": "I really like a lot of the aesthetics in League of Legends, especially from certain regions like Shurima. I recreated the logo in Blender using a Bézier curve over the reference image just for fun, and then got the idea to combine the logo with an item. I started with this Shurima sword — I'd like to keep working on the details and textures, but here's the result so far."
     },
     {
         "nom": "Klingklang",
         "type": "3d",
-        "hasLink": false,
-        "link": "",
+        "hasLink": true,
+        "link": "https://www.artstation.com/artwork/K3WXE4",
         "hasVid": false,
         "gif": "",
-        "img": "render_static_v1_1x1.jpg",
+        "img": "klingklang_render_global_v1_1x1.jpg",
         "galerie_img":[
-            "render_static_v1_1x1.jpg"
+            "klingklang_render_global_v1_1x1.jpg",
+            "klingklang_topo_v1_1x1.jpg"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
@@ -188,8 +189,9 @@
         "link": "https://www.behance.net/gallery/151727349/Valeurs-entreprise-3d",
         "hasVid": false,
         "gif": "",
-        "img": "valeur.jpg",
+        "img": "valeurs_short_anim.gif",
         "galerie_img":[
+            "valeurs_short_anim.gif",
             "valeur.jpg",
             "valeur_2d.jpg",
             "valeur_1.jpg",
