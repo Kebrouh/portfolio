@@ -50,6 +50,27 @@
         "long_description": "Short test of a 3d animation, simple textures and presentation with the pokemon klingklang."
     },
     {
+        "nom": "Atmosphäre value",
+        "type": "3d",
+        "hasLink": true,
+        "link": "https://www.behance.net/gallery/151727349/Valeurs-entreprise-3d",
+        "hasVid": false,
+        "gif": "",
+        "img": "valeurs_short_anim.gif",
+        "galerie_img":[
+            "valeurs_short_anim.gif",
+            "valeur.jpg",
+            "valeur_2d.jpg",
+            "valeur_1.jpg",
+            "valeur_2.jpg",
+            "valeur_3.jpg",
+            "valeur_4.jpg"
+        ],
+        "logoLogi": "icons8-3ds-max.svg",
+        "description": "3d animation",
+        "long_description": "Here is a 3D animation created using Autodesk 3ds Max. During my internship at Atmosphäre, I was tasked with transforming the company values into a 3D animation. I began with 2D flat icon illustrations and presented my approach on how I intended to animate them. Once everything was finalized, I commenced the work, and the final result was incorporated into company presentations."
+    },
+    {
         "nom": "Logo 3d prints",
         "type": "3d",
         "hasLink": false,
@@ -181,27 +202,6 @@
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 3d game",
         "long_description": "I collaborated with my teammates on creating a 3D game for our video game class #5. In this project, I took charge of all visual aspects, including 3D modeling, texturing, UI design, and more. I also played a key role in shaping the game's direction and mechanics.\n\n This project holds a special place for me as it was my first time learning Blender, allowing me to develop a cohesive style for the environment, UI, assets, and characters. Our team distinguished itself by implementing resource management and incorporating a unique goal that aligned with the narrative of our game world."
-    },
-    {
-        "nom": "Atmosphäre value",
-        "type": "3d",
-        "hasLink": true,
-        "link": "https://www.behance.net/gallery/151727349/Valeurs-entreprise-3d",
-        "hasVid": false,
-        "gif": "",
-        "img": "valeurs_short_anim.gif",
-        "galerie_img":[
-            "valeurs_short_anim.gif",
-            "valeur.jpg",
-            "valeur_2d.jpg",
-            "valeur_1.jpg",
-            "valeur_2.jpg",
-            "valeur_3.jpg",
-            "valeur_4.jpg"
-        ],
-        "logoLogi": "icons8-3ds-max.svg",
-        "description": "3d animation",
-        "long_description": "Here is a 3D animation created using Autodesk 3ds Max. During my internship at Atmosphäre, I was tasked with transforming the company values into a 3D animation. I began with 2D flat icon illustrations and presented my approach on how I intended to animate them. Once everything was finalized, I commenced the work, and the final result was incorporated into company presentations."
     },
     {
         "nom": "Bedroom",
