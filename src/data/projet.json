@@ -91,6 +91,99 @@
         "long_description": "3d logo model designed for Team Harmony, a local Pokémon GO community. The project includes a 3d reproduction of their 2d logo and a custom variant made for an in-game event. Both models were 3d printed multiple times and finished with primer, paint, and protective coating."
     },
     {
+        "nom": "Sky monastery",
+        "type": "map",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "skymonas_01.jpg",
+        "galerie_img":[
+            "skymonas_01.jpg",
+            "skymonas_04.jpg",
+            "skymonas_02.jpg",
+            "skymonas_03.jpg",
+            "skymonas_05.jpg"
+        ],
+        "logoLogi": "cubio_logo_black.png",
+        "description": "assets showcase map",
+        "long_description": "Map made in cubio with their creative tool to display the asset pack theme sky monastery, wich was hightly influenced by the air nomad temple from avatar. Last image is the asset palette i had to showcase."
+    },
+    {
+        "nom": "Pirate island",
+        "type": "map",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "pirate_01.jpg",
+        "galerie_img":[
+            "pirate_01.jpg",
+            "pirate_03.jpg",
+            "pirate_02.jpg",
+            "pirate_04.jpg"
+        ],
+        "logoLogi": "cubio_logo_black.png",
+        "description": "assets showcase map",
+        "long_description": "Map made in cubio with their creative tool to display the asset pack theme pirate. Last image is the asset palette i had to showcase."
+    },
+    {
+        "nom": "Quiet village",
+        "type": "map",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "oldjapan_01.jpg",
+        "galerie_img":[
+            "oldjapan_01.jpg",
+            "oldjapan_02.jpg",
+            "oldjapan_03.jpg",
+            "oldjapan_04.jpg",
+            "oldjapan_05.jpg"
+        ],
+        "logoLogi": "cubio_logo_black.png",
+        "description": "assets showcase map",
+        "long_description": "Map made in cubio with their creative tool to display the asset pack theme old japan. Last image is the asset palette i had to showcase."
+    },
+    {
+        "nom": "Festive street",
+        "type": "map",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "brazil_01.jpg",
+        "galerie_img":[
+            "brazil_01.jpg",
+            "brazil_02.jpg",
+            "brazil_03.jpg",
+            "brazil_04.jpg"
+        ],
+        "logoLogi": "cubio_logo_black.png",
+        "description": "assets showcase map",
+        "long_description": "Map made in cubio with their creative tool to display the asset pack theme brazil. Last image is the asset palette i had to showcase."
+    },
+    {
+        "nom": "Slumber cove",
+        "type": "map",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "ancgreece_03.jpg",
+        "galerie_img":[
+            "ancgreece_03.jpg",
+            "ancgreece_02.jpg",
+            "ancgreece_04.jpg",
+            "ancgreece_01.jpg",
+            "ancgreece_05.jpg"
+        ],
+        "logoLogi": "cubio_logo_black.png",
+        "description": "assets showcase map",
+        "long_description": "Map made in cubio with their creative tool to display the asset pack theme ancient greece. Last image is the asset palette i had to showcase."
+    },
+    {
         "nom": "Spark of the Beyond",
         "type": "game",
         "hasLink": false,
