@@ -72,14 +72,34 @@
         "long_description": "Here is a 3D animation created using Autodesk 3ds Max. During my internship at Atmosphäre, I was tasked with transforming the company values into a 3D animation. I began with 2D flat icon illustrations and presented my approach on how I intended to animate them. Once everything was finalized, I commenced the work, and the final result was incorporated into company presentations."
     },
     {
-        "nom": "Logo 3d prints",
+        "nom": "Fierce logo 3d prints",
         "type": "3d",
         "hasLink": false,
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "team_harmony_white.jpg",
+        "img": "fierce_collier_render_square_v1.png",
         "galerie_img":[
+            "fierce_collier_render_square_v1.png",
+            "fierce_01.jpg",
+            "fierce_02.jpg",
+            "fierce_03.jpg",
+            "fierce_logo_original.jpg"
+        ],
+        "logoLogi": "icons8-blender.svg",
+        "description": "3d prints",
+        "long_description": "3d logo model designed for Fierce grading, a card grading company. The project includes a 3d reproduction of their 2d logo with a loop at the top to be attached onto a necklace. This was my first project on my P1S, the 0.2mm nozzle made it a long print but the final result really is worth it."
+    },
+    {
+        "nom": "Harmony logo 3d prints",
+        "type": "3d",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "harmony_logo_render_square.png",
+        "galerie_img":[
+            "harmony_logo_render_square.png",
             "team_harmony_white.jpg",
             "team_harmony_fest.jpg",
             "harmony_logo_color.jpg",
