@@ -38,19 +38,10 @@
         position: absolute;
         padding: 0;
         content: "";
-        right: 0;
-        bottom: 0;
+        width: 25%;
+        height: 100%;
         z-index: -1;
-
-        @media (min-width: 576px){
-            display: block;
-            position: absolute;
-            padding: 0;
-            content: "";
-            width: 25%;
-            height: 100%;
             background-color: var(--cyan-reg);
-        }
     }
 
     & .section-info{
