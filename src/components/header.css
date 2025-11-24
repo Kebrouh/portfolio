@@ -4,19 +4,28 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     padding: 1em 3em;
     color: white;
     font-family: 'Fira Sans', sans-serif;
 
+    @media (min-width: 576px){
+        justify-content: end;
+    }
+
     & .header-bg{
         position: absolute;
         top: 0;
         bottom: 0;
-        right: 25%;
+        right: 0;
         left: 0;
         transform: rotate(180deg);
+
+        @media (min-width: 576px){
+            right: 25%;
+        }
+
         & img{
             width: 100%;
             height: 100%;
@@ -27,37 +36,75 @@
     &::after{
         display: block;
         position: absolute;
-        width: 25%;
-        height: 100%;
+        width: 0;
+        height: 0;
         padding: 0;
         content: "";
         right: 0;
         bottom: 0;
         z-index: -1;
         background-color: var(--cyan-reg);
+
+        @media (min-width: 576px){
+            width: 25%;
+            height: 100%;
+        }
     }
 
     & .section-info{
         position: relative;
         text-align: end;
         z-index: 10;
-        margin: 3em;
+        margin: 1em;
+
+        @media (min-width: 576px){
+            margin: 2em;
+        }
+        @media (min-width: 768px){
+            margin: 3em;
+        }
+
         & h2{
             font-family: var(--paragraphe);
-            font-size: 3em;
+            font-size: 1em;
             font-weight: bold;
             margin-bottom: 0.2em;
+
+            @media (min-width: 576px){
+                font-size: 2em;
+            }
+            @media (min-width: 768px){
+                font-size: 3em;
+            }
         }
         & p{
             font-weight: lighter;
+            font-size: 0.5em;
+            
+            @media (min-width: 576px){
+                font-size: 0.75em;
+            }
+            @media (min-width: 768px){
+                font-size: 1em;
+            }
         }
     }
 
     & .section-photo{
         position: relative;
-        height: 150px;
-        width: 150px;
+        height: 50px;
+        width: 50px;
         z-index: 10;
+
+        @media (min-width: 576px){
+            height: 100px;
+            width: 100px;
+        }
+        @media (min-width: 768px){
+            height: 150px;
+            width: 150px;
+        }
+
         & img{
             object-fit: cover;
             width: 100%;

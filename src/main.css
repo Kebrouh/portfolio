@@ -17,4 +17,5 @@
 body{
     background-color: var(--cyan-fonce);
     color: white;
+    width: 100%;
 }
