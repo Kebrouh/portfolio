@@ -36,8 +36,6 @@
     &::after{
         display: block;
         position: absolute;
-        width: 0;
-        height: 0;
         padding: 0;
         content: "";
         right: 0;
