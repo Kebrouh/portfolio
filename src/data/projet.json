@@ -112,6 +112,22 @@
         "long_description": "3d logo model designed for Team Harmony, a local Pokémon GO community. The project includes a 3d reproduction of their 2d logo and a custom variant made for an in-game event. Both models were 3d printed multiple times and finished with primer, paint, and protective coating."
     },
     {
+        "nom": "QR code stand",
+        "type": "3d",
+        "hasLink": false,
+        "link": "",
+        "hasVid": false,
+        "gif": "",
+        "img": "mobileKlinikStand_renderStatic_square.png",
+        "galerie_img":[
+            "mobileKlinikStand_renderStatic_square.png",
+            "photo_comptoir.jpg"
+        ],
+        "logoLogi": "icons8-blender.svg",
+        "description": "3d prints",
+        "long_description": "3D print of a small stand displaying a QR code linking to the Google review page for the Mobile Klinik store. One was made for the Rosemère store and another for the Rive-Nord one. I used t.ly to shorten the URL and Canva to generate the QR code. I then imported the image into Blender to reproduce it and built the stand around it with their logo integrated."
+    },
+    {
         "nom": "Sky monastery",
         "type": "map",
         "hasLink": false,
