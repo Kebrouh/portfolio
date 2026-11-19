@@ -8,7 +8,13 @@ import {
   Navigate,
   RouterProvider,
   createBrowserRouter,
+  useParams,
 } from "react-router-dom";
+
+const OldProjectRedirect = () => {
+  const { pos } = useParams();
+  return <Navigate to={`/projet/${pos}`} replace />;
+};
 
 const App = () => {
   const routes = [
@@ -17,26 +23,24 @@ const App = () => {
       element: <Layout />,
       children: [
         {
-          index: true, //affiche la composante de défault dans le Outlet
-          element: <Navigate to="/accueil" replace />,
+          index: true,
+          element: <Accueil projet={projet} />,
         },
         {
-          path: "accueil",
-          element: <Accueil projet={projet}/>,
-          children: [
-            {
-              path: ":pos",
-              element: <AccueilView />,
-            },
-          ],
+          path: "projet/:pos",
+          element: <Accueil projet={projet} />,
+          children: [{ index: true, element: <AccueilView /> }],
         },
+        // anciennes URLs
+        { path: "accueil", element: <Navigate to="/" replace /> },
+        { path: "accueil/:pos", element: <OldProjectRedirect /> },
       ],
     },
 
     {
       //peut importe l'url rentré, dirige vers about (solution a 404)
       path: "*",
-      element: <Navigate to="/accueil" replace />,
+      element: <Navigate to="/" replace />,
     },
   ];
 

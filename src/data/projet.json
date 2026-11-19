@@ -6,14 +6,14 @@
         "link": "https://www.cardboarding.ca",
         "hasVid": false,
         "gif": "",
-        "img": "icon-maskable-512.png",
+        "img": "icon-maskable-512.webp",
         "galerie_img":[
-            "01-tracker-captioned.png",
-            "02-league-home-captioned.png",
-            "03-collection-captioned.png",
-            "04-tournament-captioned.png",
-            "05-broadcast-captioned.png",
-            "06-profile-captioned.png"
+            "01-tracker-captioned.webp",
+            "02-league-home-captioned.webp",
+            "03-collection-captioned.webp",
+            "04-tournament-captioned.webp",
+            "05-broadcast-captioned.webp",
+            "06-profile-captioned.webp"
         ],
         "logoLogi": "claude.svg",
         "description": "Web app",
@@ -26,10 +26,10 @@
         "link": "https://www.artstation.com/artwork/oJwdnW",
         "hasVid": false,
         "gif": "",
-        "img": "kirby_global_v1_1x1.jpg",
+        "img": "kirby_global_v1_1x1.webp",
         "galerie_img":[
-            "kirby_global_v1_1x1.jpg",
-            "img_topo.jpg"
+            "kirby_global_v1_1x1.webp",
+            "img_topo.webp"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
@@ -42,12 +42,12 @@
         "link": "https://www.artstation.com/artwork/rlVxO6",
         "hasVid": false,
         "gif": "",
-        "img": "shurima_sword_global_v1.png",
+        "img": "shurima_sword_global_v1.webp",
         "galerie_img":[
-            "shurima_sword_global_v1.png",
-            "shurima_sword_topview_v1.png",
-            "shurima_sword_topo_v1.jpg",
-            "shurima_logo_01.png"
+            "shurima_sword_global_v1.webp",
+            "shurima_sword_topview_v1.webp",
+            "shurima_sword_topo_v1.webp",
+            "shurima_logo_01.webp"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
@@ -63,8 +63,8 @@
         "img": "klingklang_render_anim.gif",
         "galerie_img":[
             "klingklang_render_anim.gif",
-            "klingklang_render_global_v1_1x1.jpg",
-            "klingklang_topo_v1_1x1.jpg"
+            "klingklang_render_global_v1_1x1.webp",
+            "klingklang_topo_v1_1x1.webp"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
@@ -80,12 +80,12 @@
         "img": "valeurs_short_anim.gif",
         "galerie_img":[
             "valeurs_short_anim.gif",
-            "valeur.jpg",
-            "valeur_2d.jpg",
-            "valeur_1.jpg",
-            "valeur_2.jpg",
-            "valeur_3.jpg",
-            "valeur_4.jpg"
+            "valeur.webp",
+            "valeur_2d.webp",
+            "valeur_1.webp",
+            "valeur_2.webp",
+            "valeur_3.webp",
+            "valeur_4.webp"
         ],
         "logoLogi": "icons8-3ds-max.svg",
         "description": "3d animation",
@@ -98,13 +98,13 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "fierce_collier_render_square_v1.png",
+        "img": "fierce_collier_render_square_v1.webp",
         "galerie_img":[
-            "fierce_collier_render_square_v1.png",
-            "fierce_01.jpg",
-            "fierce_02.jpg",
-            "fierce_03.jpg",
-            "fierce_logo_original.jpg"
+            "fierce_collier_render_square_v1.webp",
+            "fierce_01.webp",
+            "fierce_02.webp",
+            "fierce_03.webp",
+            "fierce_logo_original.webp"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d prints",
@@ -117,15 +117,15 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "harmony_logo_render_square.png",
+        "img": "harmony_logo_render_square.webp",
         "galerie_img":[
-            "harmony_logo_render_square.png",
-            "team_harmony_white.jpg",
-            "team_harmony_fest.jpg",
-            "harmony_logo_color.jpg",
-            "harmony_logo_fest.jpg",
-            "logo_full_square.jpg",
-            "go_fest_badge.jpg"
+            "harmony_logo_render_square.webp",
+            "team_harmony_white.webp",
+            "team_harmony_fest.webp",
+            "harmony_logo_color.webp",
+            "harmony_logo_fest.webp",
+            "logo_full_square.webp",
+            "go_fest_badge.webp"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d prints",
@@ -138,10 +138,10 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "mobileKlinikStand_renderStatic_square.png",
+        "img": "mobileKlinikStand_renderStatic_square.webp",
         "galerie_img":[
-            "mobileKlinikStand_renderStatic_square.png",
-            "photo_comptoir.jpg"
+            "mobileKlinikStand_renderStatic_square.webp",
+            "photo_comptoir.webp"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d prints",
@@ -154,15 +154,15 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "skymonas_01.jpg",
+        "img": "skymonas_01.webp",
         "galerie_img":[
-            "skymonas_01.jpg",
-            "skymonas_04.jpg",
-            "skymonas_02.jpg",
-            "skymonas_03.jpg",
-            "skymonas_05.jpg"
+            "skymonas_01.webp",
+            "skymonas_04.webp",
+            "skymonas_02.webp",
+            "skymonas_03.webp",
+            "skymonas_05.webp"
         ],
-        "logoLogi": "cubio_logo_black.png",
+        "logoLogi": "cubio_logo_black.webp",
         "description": "assets showcase map",
         "long_description": "Map made in cubio with their creative tool to display the asset pack theme sky monastery, wich was hightly influenced by the air nomad temple from avatar. Last image is the asset palette i had to showcase."
     },
@@ -173,14 +173,14 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "pirate_01.jpg",
+        "img": "pirate_01.webp",
         "galerie_img":[
-            "pirate_01.jpg",
-            "pirate_03.jpg",
-            "pirate_02.jpg",
-            "pirate_04.jpg"
+            "pirate_01.webp",
+            "pirate_03.webp",
+            "pirate_02.webp",
+            "pirate_04.webp"
         ],
-        "logoLogi": "cubio_logo_black.png",
+        "logoLogi": "cubio_logo_black.webp",
         "description": "assets showcase map",
         "long_description": "Map made in cubio with their creative tool to display the asset pack theme pirate. Last image is the asset palette i had to showcase."
     },
@@ -191,15 +191,15 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "oldjapan_01.jpg",
+        "img": "oldjapan_01.webp",
         "galerie_img":[
-            "oldjapan_01.jpg",
-            "oldjapan_02.jpg",
-            "oldjapan_03.jpg",
-            "oldjapan_04.jpg",
-            "oldjapan_05.jpg"
+            "oldjapan_01.webp",
+            "oldjapan_02.webp",
+            "oldjapan_03.webp",
+            "oldjapan_04.webp",
+            "oldjapan_05.webp"
         ],
-        "logoLogi": "cubio_logo_black.png",
+        "logoLogi": "cubio_logo_black.webp",
         "description": "assets showcase map",
         "long_description": "Map made in cubio with their creative tool to display the asset pack theme old japan. Last image is the asset palette i had to showcase."
     },
@@ -210,14 +210,14 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "brazil_01.jpg",
+        "img": "brazil_01.webp",
         "galerie_img":[
-            "brazil_01.jpg",
-            "brazil_02.jpg",
-            "brazil_03.jpg",
-            "brazil_04.jpg"
+            "brazil_01.webp",
+            "brazil_02.webp",
+            "brazil_03.webp",
+            "brazil_04.webp"
         ],
-        "logoLogi": "cubio_logo_black.png",
+        "logoLogi": "cubio_logo_black.webp",
         "description": "assets showcase map",
         "long_description": "Map made in cubio with their creative tool to display the asset pack theme brazil. Last image is the asset palette i had to showcase."
     },
@@ -228,15 +228,15 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "ancgreece_03.jpg",
+        "img": "ancgreece_03.webp",
         "galerie_img":[
-            "ancgreece_03.jpg",
-            "ancgreece_02.jpg",
-            "ancgreece_04.jpg",
-            "ancgreece_01.jpg",
-            "ancgreece_05.jpg"
+            "ancgreece_03.webp",
+            "ancgreece_02.webp",
+            "ancgreece_04.webp",
+            "ancgreece_01.webp",
+            "ancgreece_05.webp"
         ],
-        "logoLogi": "cubio_logo_black.png",
+        "logoLogi": "cubio_logo_black.webp",
         "description": "assets showcase map",
         "long_description": "Map made in cubio with their creative tool to display the asset pack theme ancient greece. Last image is the asset palette i had to showcase."
     },
@@ -247,16 +247,16 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "spark_sceneIntro.jpg",
+        "img": "spark_sceneIntro.webp",
         "galerie_img":[
-            "spark_sceneIntro.jpg",
-            "spark_game_1.jpg",
-            "spark_game_2.jpg",
-            "spark_game_3.jpg",
-            "spark_game_4.jpg",
-            "spark_game_6.jpg",
-            "spark_game_5.jpg",
-            "spark_sceneOutro.jpg"
+            "spark_sceneIntro.webp",
+            "spark_game_1.webp",
+            "spark_game_2.webp",
+            "spark_game_3.webp",
+            "spark_game_4.webp",
+            "spark_game_6.webp",
+            "spark_game_5.webp",
+            "spark_sceneOutro.webp"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 3d game",
@@ -269,16 +269,16 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "spark_3d_room_texture.jpg",
+        "img": "spark_3d_room_texture.webp",
         "galerie_img":[
-            "spark_3d_biblio.jpg",
-            "spark_3d_biblio_texture.jpg",
-            "spark_3d_lit.jpg",
-            "spark_3d_lit_texture.jpg",
-            "spark_3d_table.jpg",
-            "spark_3d_table_texture.jpg",
-            "spark_3d_room.jpg",
-            "spark_3d_room_texture.jpg"
+            "spark_3d_biblio.webp",
+            "spark_3d_biblio_texture.webp",
+            "spark_3d_lit.webp",
+            "spark_3d_lit_texture.webp",
+            "spark_3d_table.webp",
+            "spark_3d_table_texture.webp",
+            "spark_3d_room.webp",
+            "spark_3d_room_texture.webp"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
@@ -291,12 +291,12 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "p3_trueno.jpg",
+        "img": "p3_trueno.webp",
         "galerie_img":[
-            "p3_trueno.jpg",
-            "p3_3d_ligne_1.jpg",
-            "p3_3d_ligne_2.jpg",
-            "p3_3d_courbe_1.jpg"
+            "p3_trueno.webp",
+            "p3_3d_ligne_1.webp",
+            "p3_3d_ligne_2.webp",
+            "p3_3d_courbe_1.webp"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
@@ -309,23 +309,23 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "facto-bee_assets.jpg",
+        "img": "facto-bee_assets.webp",
         "galerie_img":[
-            "facto-bee_assets.jpg",
-            "fac_shop.png",
-            "fac_clay.png",
-            "fac_iron.png",
-            "fac_wood.png",
-            "fac_pompe.png",
-            "fac_gun.png",
-            "fac_knife.png",
-            "fac_cell.png",
-            "mini_bee_all.png",
-            "mini_bee_clay.png",
-            "mini_bee_iron.png",
-            "mini_bee_wood.png",
-            "mini_bee_sweater.png",
-            "mini_bee_base.png"
+            "facto-bee_assets.webp",
+            "fac_shop.webp",
+            "fac_clay.webp",
+            "fac_iron.webp",
+            "fac_wood.webp",
+            "fac_pompe.webp",
+            "fac_gun.webp",
+            "fac_knife.webp",
+            "fac_cell.webp",
+            "mini_bee_all.webp",
+            "mini_bee_clay.webp",
+            "mini_bee_iron.webp",
+            "mini_bee_wood.webp",
+            "mini_bee_sweater.webp",
+            "mini_bee_base.webp"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
@@ -338,16 +338,16 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "facto-bee_apercu.jpg",
+        "img": "facto-bee_apercu.webp",
         "galerie_img":[
-            "facto-bee_apercu.jpg",
-            "img_shop.png",
-            "img_transforme_monde.png",
-            "img_pompe_corrupt.png",
-            "img_ressource_hive_clay.png",
-            "img_ressource_hive_fer.png",
-            "img_ressource_hive_wood.png",
-            "img_endgame.png"
+            "facto-bee_apercu.webp",
+            "img_shop.webp",
+            "img_transforme_monde.webp",
+            "img_pompe_corrupt.webp",
+            "img_ressource_hive_clay.webp",
+            "img_ressource_hive_fer.webp",
+            "img_ressource_hive_wood.webp",
+            "img_endgame.webp"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 3d game",
@@ -360,9 +360,9 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "bedroom.jpg",
+        "img": "bedroom.webp",
         "galerie_img":[
-            "bedroom.jpg"
+            "bedroom.webp"
         ],
         "logoLogi": "icons8-3ds-max.svg",
         "description": "3d modeling",
@@ -375,13 +375,13 @@
         "link": "https://jtremblay.tim-cstj.ca/jeu4/2023/promo/j5/",
         "hasVid": false,
         "gif": "",
-        "img": "empoulpade_apercu.jpg",
+        "img": "empoulpade_apercu.webp",
         "galerie_img":[
-            "empoulpade_apercu.jpg",
-            "jeux_intro.jpg",
-            "emp_game.png",
-            "emp_wall.png",
-            "emp_shop.png"
+            "empoulpade_apercu.webp",
+            "jeux_intro.webp",
+            "emp_game.webp",
+            "emp_wall.webp",
+            "emp_shop.webp"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 2d game",
@@ -394,11 +394,11 @@
         "link": "https://harmonize2000.netlify.app",
         "hasVid": false,
         "gif": "",
-        "img": "harmonize_apercu.jpg",
+        "img": "harmonize_apercu.webp",
         "galerie_img":[
-            "harmonize_apercu.jpg",
-            "har_playlists.png",
-            "har_playlist.png"
+            "harmonize_apercu.webp",
+            "har_playlists.webp",
+            "har_playlist.webp"
         ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "React js app",
@@ -411,12 +411,12 @@
         "link": "https://pemana.ca/#/",
         "hasVid": false,
         "gif": "",
-        "img": "pemana_apercu.jpg",
+        "img": "pemana_apercu.webp",
         "galerie_img":[
-            "pemana_apercu.jpg",
-            "pem_list.png",
-            "pem_item.png",
-            "pem_venir.png"
+            "pemana_apercu.webp",
+            "pem_list.webp",
+            "pem_item.webp",
+            "pem_venir.webp"
         ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "Vue3 website",
