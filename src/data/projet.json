@@ -1,5 +1,25 @@
 [
     {
+        "nom": "Cardboarding",
+        "type": "web",
+        "hasLink": true,
+        "link": "https://www.cardboarding.ca",
+        "hasVid": false,
+        "gif": "",
+        "img": "icon-maskable-512.png",
+        "galerie_img":[
+            "01-tracker-captioned.png",
+            "02-league-home-captioned.png",
+            "03-collection-captioned.png",
+            "04-tournament-captioned.png",
+            "05-broadcast-captioned.png",
+            "06-profile-captioned.png"
+        ],
+        "logoLogi": "claude.svg",
+        "description": "Web app",
+        "long_description": "My friend and I worked on this app to track MTG games within our group to build up the stats of everyone, track decks and collections and additionally have a deckbox customizer with a 3d visualizer to pass order for my 3D printing side-business."
+    },
+    {
         "nom": "Kirby cog figure",
         "type": "3d",
         "hasLink": true,
