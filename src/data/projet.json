@@ -6,18 +6,20 @@
         "link": "https://www.cardboarding.ca",
         "hasVid": false,
         "gif": "",
-        "img": "icon-maskable-512.webp",
-        "galerie_img":[
-            "01-tracker-captioned.webp",
-            "02-league-home-captioned.webp",
-            "03-collection-captioned.webp",
-            "04-tournament-captioned.webp",
-            "05-broadcast-captioned.webp",
-            "06-profile-captioned.webp"
+        "img": "cb_dashboard.webp",
+        "galerie_img": [
+            "cb_dashboard.webp",
+            "cb_lab_customizer.webp",
+            "cb_lab_customizer_open.webp",
+            "cb_broadcast.webp",
+            "cb_tournament.webp",
+            "cb_players.webp",
+            "cb_leaderboard.webp",
+            "cb_profile.webp"
         ],
         "logoLogi": "claude.svg",
         "description": "Web app",
-        "long_description": "My friend and I worked on this app to track MTG games within our group to build up the stats of everyone, track decks and collections and additionally have a deckbox customizer with a 3d visualizer to pass order for my 3D printing side-business."
+        "long_description": "My friend and I built this app to track our Magic: The Gathering games, build everyone's stats, manage decks and collections, run tournaments and broadcast live games. It also has the Lab, where players design a Commander deckbox in a live 3D preview and order it from my 3D printing side business (the Spellbook models are by Joak1m, used under their commercial licence). The shots come from a demo league."
     },
     {
         "nom": "Kirby cog figure",
@@ -27,7 +29,7 @@
         "hasVid": false,
         "gif": "",
         "img": "kirby_global_v1_1x1.webp",
-        "galerie_img":[
+        "galerie_img": [
             "kirby_global_v1_1x1.webp",
             "img_topo.webp"
         ],
@@ -43,7 +45,7 @@
         "hasVid": false,
         "gif": "",
         "img": "shurima_sword_global_v1.webp",
-        "galerie_img":[
+        "galerie_img": [
             "shurima_sword_global_v1.webp",
             "shurima_sword_topview_v1.webp",
             "shurima_sword_topo_v1.webp",
@@ -61,7 +63,7 @@
         "hasVid": false,
         "gif": "",
         "img": "klingklang_render_anim.gif",
-        "galerie_img":[
+        "galerie_img": [
             "klingklang_render_anim.gif",
             "klingklang_render_global_v1_1x1.webp",
             "klingklang_topo_v1_1x1.webp"
@@ -78,7 +80,7 @@
         "hasVid": false,
         "gif": "",
         "img": "valeurs_short_anim.gif",
-        "galerie_img":[
+        "galerie_img": [
             "valeurs_short_anim.gif",
             "valeur.webp",
             "valeur_2d.webp",
@@ -99,7 +101,7 @@
         "hasVid": false,
         "gif": "",
         "img": "fierce_collier_render_square_v1.webp",
-        "galerie_img":[
+        "galerie_img": [
             "fierce_collier_render_square_v1.webp",
             "fierce_01.webp",
             "fierce_02.webp",
@@ -118,7 +120,7 @@
         "hasVid": false,
         "gif": "",
         "img": "harmony_logo_render_square.webp",
-        "galerie_img":[
+        "galerie_img": [
             "harmony_logo_render_square.webp",
             "team_harmony_white.webp",
             "team_harmony_fest.webp",
@@ -139,7 +141,7 @@
         "hasVid": false,
         "gif": "",
         "img": "mobileKlinikStand_renderStatic_square.webp",
-        "galerie_img":[
+        "galerie_img": [
             "mobileKlinikStand_renderStatic_square.webp",
             "photo_comptoir.webp"
         ],
@@ -155,7 +157,7 @@
         "hasVid": false,
         "gif": "",
         "img": "skymonas_01.webp",
-        "galerie_img":[
+        "galerie_img": [
             "skymonas_01.webp",
             "skymonas_04.webp",
             "skymonas_02.webp",
@@ -174,7 +176,7 @@
         "hasVid": false,
         "gif": "",
         "img": "pirate_01.webp",
-        "galerie_img":[
+        "galerie_img": [
             "pirate_01.webp",
             "pirate_03.webp",
             "pirate_02.webp",
@@ -192,7 +194,7 @@
         "hasVid": false,
         "gif": "",
         "img": "oldjapan_01.webp",
-        "galerie_img":[
+        "galerie_img": [
             "oldjapan_01.webp",
             "oldjapan_02.webp",
             "oldjapan_03.webp",
@@ -211,7 +213,7 @@
         "hasVid": false,
         "gif": "",
         "img": "brazil_01.webp",
-        "galerie_img":[
+        "galerie_img": [
             "brazil_01.webp",
             "brazil_02.webp",
             "brazil_03.webp",
@@ -229,7 +231,7 @@
         "hasVid": false,
         "gif": "",
         "img": "ancgreece_03.webp",
-        "galerie_img":[
+        "galerie_img": [
             "ancgreece_03.webp",
             "ancgreece_02.webp",
             "ancgreece_04.webp",
@@ -248,7 +250,7 @@
         "hasVid": false,
         "gif": "",
         "img": "spark_sceneIntro.webp",
-        "galerie_img":[
+        "galerie_img": [
             "spark_sceneIntro.webp",
             "spark_game_1.webp",
             "spark_game_2.webp",
@@ -270,7 +272,7 @@
         "hasVid": false,
         "gif": "",
         "img": "spark_3d_room_texture.webp",
-        "galerie_img":[
+        "galerie_img": [
             "spark_3d_biblio.webp",
             "spark_3d_biblio_texture.webp",
             "spark_3d_lit.webp",
@@ -292,7 +294,7 @@
         "hasVid": false,
         "gif": "",
         "img": "p3_trueno.webp",
-        "galerie_img":[
+        "galerie_img": [
             "p3_trueno.webp",
             "p3_3d_ligne_1.webp",
             "p3_3d_ligne_2.webp",
@@ -310,7 +312,7 @@
         "hasVid": false,
         "gif": "",
         "img": "facto-bee_assets.webp",
-        "galerie_img":[
+        "galerie_img": [
             "facto-bee_assets.webp",
             "fac_shop.webp",
             "fac_clay.webp",
@@ -339,7 +341,7 @@
         "hasVid": false,
         "gif": "",
         "img": "facto-bee_apercu.webp",
-        "galerie_img":[
+        "galerie_img": [
             "facto-bee_apercu.webp",
             "img_shop.webp",
             "img_transforme_monde.webp",
@@ -361,7 +363,7 @@
         "hasVid": false,
         "gif": "",
         "img": "bedroom.webp",
-        "galerie_img":[
+        "galerie_img": [
             "bedroom.webp"
         ],
         "logoLogi": "icons8-3ds-max.svg",
@@ -376,7 +378,7 @@
         "hasVid": false,
         "gif": "",
         "img": "empoulpade_apercu.webp",
-        "galerie_img":[
+        "galerie_img": [
             "empoulpade_apercu.webp",
             "jeux_intro.webp",
             "emp_game.webp",
@@ -395,7 +397,7 @@
         "hasVid": false,
         "gif": "",
         "img": "harmonize_apercu.webp",
-        "galerie_img":[
+        "galerie_img": [
             "harmonize_apercu.webp",
             "har_playlists.webp",
             "har_playlist.webp"
@@ -412,7 +414,7 @@
         "hasVid": false,
         "gif": "",
         "img": "pemana_apercu.webp",
-        "galerie_img":[
+        "galerie_img": [
             "pemana_apercu.webp",
             "pem_list.webp",
             "pem_item.webp",

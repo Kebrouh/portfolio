@@ -5,11 +5,10 @@
 export const projectsMeta = {
   Cardboarding: {
     featured: true,
-    cover: "01-tracker-captioned.webp",
-    tools: ["React", "Supabase", "Stripe", "Blender"],
+    tools: ["React", "Three.js", "Supabase", "Stripe", "Blender"],
     fr: {
       description: "Application web",
-      long: "Mon ami et moi avons créé cette application pour suivre les parties de Magic: The Gathering de notre groupe, bâtir les statistiques de chacun, gérer decks et collections, et nous avons ajouté un personnalisateur de deckbox avec visualiseur 3D pour recevoir les commandes de mon entreprise d'impression 3D.",
+      long: "Mon ami et moi avons créé cette application pour suivre nos parties de Magic: The Gathering, bâtir les statistiques de chacun, gérer decks et collections, organiser des tournois et diffuser des parties en direct. Elle inclut aussi le Lab, où les joueurs conçoivent une deckbox Commander dans un aperçu 3D en direct et la commandent à mon entreprise d'impression 3D (les modèles Spellbook sont de Joak1m, utilisés sous leur licence commerciale). Les captures viennent d'une ligue de démonstration.",
     },
   },
   "Kirby cog figure": {
