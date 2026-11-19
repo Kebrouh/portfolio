@@ -10,7 +10,6 @@
         "galerie_img": [
             "cb_dashboard.webp",
             "cb_lab_customizer.webp",
-            "cb_lab_customizer_open.webp",
             "cb_broadcast.webp",
             "cb_tournament.webp",
             "cb_players.webp",
@@ -413,12 +412,14 @@
         "link": "https://pemana.ca/#/",
         "hasVid": false,
         "gif": "",
-        "img": "pemana_apercu.webp",
+        "img": "pemana_home.webp",
         "galerie_img": [
-            "pemana_apercu.webp",
-            "pem_list.webp",
-            "pem_item.webp",
-            "pem_venir.webp"
+            "pemana_home.webp",
+            "pemana_footer.webp",
+            "pemana_saint_jerome.webp",
+            "pemana_marina.webp",
+            "pemana_lac_superieur.webp",
+            "pemana_a_venir.webp"
         ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "Vue3 website",
