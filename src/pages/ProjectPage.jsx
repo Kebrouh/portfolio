@@ -35,6 +35,8 @@ const ProjectPage = () => {
     );
   }
 
+  const typeLabel = t.types[project.type] || project.type;
+  const showType = !project.label.toLowerCase().includes(typeLabel.toLowerCase());
   const prev = projects[(idx - 1 + projects.length) % projects.length];
   const next = projects[(idx + 1) % projects.length];
 
@@ -53,7 +55,7 @@ const ProjectPage = () => {
         <div className="project-info">
           <h1>{project.name}</h1>
           <p className="project-meta">
-            {t.types[project.type] || project.type} · {project.label}
+            {showType ? `${typeLabel} · ${project.label}` : project.label}
           </p>
 
           {project.long.split("\n\n").map((para) => (
