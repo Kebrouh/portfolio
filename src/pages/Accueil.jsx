@@ -69,7 +69,7 @@ const Accueil = ({ projet = [] }) => {
                         const originalIndex = projet.findIndex(p => p.nom === nom); // Find original index
                         return (
                             <div className="vignette-projet" key={originalIndex}>
-                                <Link to={`/accueil/${originalIndex + 1}`}>
+                                <Link to={`/projet/${originalIndex + 1}`}>
                                     {hasVid ? (
                                         <>
                                             <img

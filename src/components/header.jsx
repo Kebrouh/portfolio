@@ -9,7 +9,7 @@ const Accueil = () => {
         <div className="header">
             
             <div className="header-bg">
-                <img src="/footer_v2.png" alt="img-ng-footer" />
+                <img src="/footer_v2.webp" alt="img-ng-footer" />
             </div>
 
             <div className="section-info">
@@ -18,7 +18,7 @@ const Accueil = () => {
             </div>
 
             <div className="section-photo">
-                <img src="/moi.jpg" alt="photo_moi" />
+                <img src="/moi.webp" alt="photo_moi" />
             </div>
 
 

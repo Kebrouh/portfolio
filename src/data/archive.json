@@ -6,12 +6,12 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "p3_sceneIntro.jpg",
+        "img": "p3_sceneIntro.webp",
         "galerie_img":[
-            "p3_sceneIntro.jpg",
-            "p3_game.jpg",
-            "p3_game_1.jpg",
-            "p3_sceneOutro.jpg"
+            "p3_sceneIntro.webp",
+            "p3_game.webp",
+            "p3_game_1.webp",
+            "p3_sceneOutro.webp"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 3d game",
@@ -24,15 +24,15 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "p1_robot.jpg",
+        "img": "p1_robot.webp",
         "galerie_img":[
-            "p1_robot.jpg",
-            "p1_scene_1.jpg",
-            "p1_scene_2.jpg",
-            "p1_scene_3.jpg",
-            "p1_scene_4.jpg",
-            "p1_scene_5.jpg",
-            "p1_scene_6.jpg"
+            "p1_robot.webp",
+            "p1_scene_1.webp",
+            "p1_scene_2.webp",
+            "p1_scene_3.webp",
+            "p1_scene_4.webp",
+            "p1_scene_5.webp",
+            "p1_scene_6.webp"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity VR game",
@@ -45,12 +45,12 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "p1_scene_1.jpg",
+        "img": "p1_scene_1.webp",
         "galerie_img":[
-            "p1_scene_1.jpg",
-            "p1_scene_3.jpg",
-            "p1_scene_5.jpg",
-            "p1_scene_6.jpg"
+            "p1_scene_1.webp",
+            "p1_scene_3.webp",
+            "p1_scene_5.webp",
+            "p1_scene_6.webp"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d assets",
@@ -63,16 +63,16 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "facto-bee_apercu.jpg",
+        "img": "facto-bee_apercu.webp",
         "galerie_img":[
-            "facto-bee_apercu.jpg",
-            "img_shop.png",
-            "img_transforme_monde.png",
-            "img_pompe_corrupt.png",
-            "img_ressource_hive_clay.png",
-            "img_ressource_hive_fer.png",
-            "img_ressource_hive_wood.png",
-            "img_endgame.png"
+            "facto-bee_apercu.webp",
+            "img_shop.webp",
+            "img_transforme_monde.webp",
+            "img_pompe_corrupt.webp",
+            "img_ressource_hive_clay.webp",
+            "img_ressource_hive_fer.webp",
+            "img_ressource_hive_wood.webp",
+            "img_endgame.webp"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity 3d game",
@@ -85,10 +85,10 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "banana_v01_buildingR.jpg",
+        "img": "banana_v01_buildingR.webp",
         "galerie_img":[
-            "banana_v01_buildingR.jpg",
-            "banana_v01_barrel.jpg"
+            "banana_v01_buildingR.webp",
+            "banana_v01_barrel.webp"
         ],
         "logoLogi": "icons8-blender.svg",
         "description": "3d modeling",
@@ -101,9 +101,9 @@
         "link": "https://tim-cstj.ca/meilleures-creations-3d-automne-2020/#bwg5/199",
         "hasVid": false,
         "gif": "",
-        "img": "ruelle.jpg",
+        "img": "ruelle.webp",
         "galerie_img":[
-            "ruelle.jpg",
+            "ruelle.webp",
             "banana.avif"
         ],
         "logoLogi": "icons8-3ds-max.svg",
@@ -117,13 +117,13 @@
         "link": "https://www.behance.net/gallery/184776327/A-small-room-that-i-made-for-fun",
         "hasVid": false,
         "gif": "",
-        "img": "room.jpg",
+        "img": "room.webp",
         "galerie_img":[
-            "room.jpg",
-            "divan.jpg",
-            "meuble_tv.jpg",
-            "biblio.jpg",
-            "bureau.jpg"
+            "room.webp",
+            "divan.webp",
+            "meuble_tv.webp",
+            "biblio.webp",
+            "bureau.webp"
         ],
         "logoLogi": "icons8-3ds-max.svg",
         "description": "3d modeling",
@@ -136,11 +136,11 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "temple_final_apercu.jpg",
+        "img": "temple_final_apercu.webp",
         "galerie_img":[
-            "temple_final_apercu.jpg",
-            "temple_final_tuto.jpg",
-            "temple_final_jeu.jpg"
+            "temple_final_apercu.webp",
+            "temple_final_tuto.webp",
+            "temple_final_jeu.webp"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity VR game",
@@ -153,12 +153,12 @@
         "link": "",
         "hasVid": false,
         "gif": "",
-        "img": "office_close.jpg",
+        "img": "office_close.webp",
         "galerie_img":[
-            "office_close.jpg",
-            "office.jpg",
-            "vamos_a_la_playa.jpg",
-            "guillermo.jpg"
+            "office_close.webp",
+            "office.webp",
+            "vamos_a_la_playa.webp",
+            "guillermo.webp"
         ],
         "logoLogi": "icons8-unity.svg",
         "description": "Unity VR game",
@@ -171,10 +171,10 @@
         "link": "https://traiteurcagiotti.ca/#/",
         "hasVid": false,
         "gif": "",
-        "img": "cagiotti_apercu.jpg",
+        "img": "cagiotti_apercu.webp",
         "galerie_img":[
-            "cagiotti_apercu.jpg",
-            "cag_menu.png"
+            "cagiotti_apercu.webp",
+            "cag_menu.webp"
         ],
         "logoLogi": "icons8-visual-studio.svg",
         "description": "Vue3 website",

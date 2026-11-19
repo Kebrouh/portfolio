@@ -16,13 +16,11 @@ const AccueilView = () => {
     
     const project = projet[pos - 1];
 
-    console.log(project.galerie_img[0])
-    console.log(project.img)
 
     return (
     <div className="page-accueilView">
         {/* overlay dark */}
-        <Link to={`/accueil`} className="overlay"></Link>
+        <Link to={`/`} className="overlay"></Link>
         {/* <div className="overlay"></div> */}
 
         <article>
@@ -42,7 +40,7 @@ const AccueilView = () => {
                     />
                 </div>
 
-                <Link to={`/accueil`} className="retour">
+                <Link to={`/`} className="retour">
                     <IoArrowBackOutline/>
                 </Link>
                 

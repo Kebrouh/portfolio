@@ -20,7 +20,7 @@ const Accueil = () => {
         <div className="footer">
 
             <div className="footer-bg">
-                <img src="/footer_v2.png" alt="img-ng-footer" />
+                <img src="/footer_v2.webp" alt="img-ng-footer" />
             </div>
 
             <div className="contact">
