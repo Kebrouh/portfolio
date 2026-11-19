@@ -1,45 +1,19 @@
-import Header from "./header";
-import Footer from "./footer";
+import { Outlet, ScrollRestoration } from "react-router-dom";
+import Nav from "./Nav";
+import Footer from "./Footer";
+import Reveal from "./Reveal";
 
-import Waves from './Waves';    //anim bg
-
-import { Outlet } from "react-router-dom";
-
-const Layout = () => {
-    return (
-
-        <div className="layout" >
-
-            <Waves
-                // lineColor="rgba(38, 39, 44, 1)"
-                lineColor="rgba(56, 57, 62, 1)"
-                backgroundColor="#2A2B30"
-                waveSpeedX={0.05}
-                waveSpeedY={0.01}
-                waveAmpX={40}
-                waveAmpY={20}
-                friction={0.9}
-                tension={0.01}
-                maxCursorMove={120}
-                xGap={20}
-                yGap={36}
-            />
-
-            <div>
-                <Header />
-            </div>
-
-            {/* Les différentes vue de l'app seront affichées dans le main ci-dessous */}
-            <main>
-                <Outlet />
-            </main>
-
-            <div>
-                <Footer />
-            </div>
-
-        </div>
-    );
-};
+const Layout = () => (
+  <>
+    <div className="bg" aria-hidden="true" />
+    <Nav />
+    <main>
+      <Outlet />
+    </main>
+    <Footer />
+    <Reveal />
+    <ScrollRestoration />
+  </>
+);
 
 export default Layout;

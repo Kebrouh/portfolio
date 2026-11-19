@@ -1,0 +1,88 @@
+<title>Portfolio Avant Après</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap">
+<style>
+  /* Layout: stacked comparison rows, before left / after right, stacking on phones */
+  :root {
+    --bg: #f5f7f7; --fg: #12181a; --muted: #5b676c; --line: #d9e0e2; --card: #ffffff;
+    --accent: #0f8f86; --warn: #b0447a;
+    --font-display: "Space Grotesk", system-ui, sans-serif;
+    --font-body: "Inter", system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #0e1113; --fg: #eef2f3; --muted: #9aa7ad; --line: #272e32; --card: #161a1d; --accent: #4fd1c5; --warn: #e0529c; color-scheme: dark; }
+  }
+  :root[data-theme="dark"] { --bg: #0e1113; --fg: #eef2f3; --muted: #9aa7ad; --line: #272e32; --card: #161a1d; --accent: #4fd1c5; --warn: #e0529c; color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.6 var(--font-body); padding-block: 40px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  main { max-width: 1080px; margin-inline: auto; display: grid; gap: 48px; }
+  h1, h2 { font-family: var(--font-display); letter-spacing: -0.02em; line-height: 1.15; margin: 0; text-wrap: balance; }
+  h1 { font-size: clamp(1.9rem, 5vw, 2.8rem); }
+  h2 { font-size: 1.35rem; }
+  .lead { color: var(--muted); max-width: 60ch; margin: 10px 0 0; }
+  .row { display: grid; gap: 16px; }
+  .pair { display: grid; gap: 16px; grid-template-columns: 1fr 1fr; align-items: start; }
+  .pair.phone { grid-template-columns: repeat(2, minmax(0, 340px)); justify-content: center; }
+  figure { margin: 0; min-width: 0; }
+  figure img { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); background: var(--card); }
+  figcaption { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 8px; }
+  .before figcaption { color: var(--warn); }
+  .after figcaption { color: var(--accent); }
+  .notes { display: grid; gap: 8px; margin: 0; padding-left: 1.1em; color: var(--muted); }
+  .notes b { color: var(--fg); font-weight: 600; }
+  .stats { display: flex; flex-wrap: wrap; gap: 12px 40px; }
+  .stats div { display: grid; }
+  .stats strong { font-family: var(--font-display); font-size: 1.6rem; }
+  .stats span { color: var(--muted); font-size: 0.9rem; }
+  @media (max-width: 640px) { .pair, .pair.phone { grid-template-columns: 1fr; } }
+</style>
+
+<main>
+  <header>
+    <h1>Portfolio, avant et après</h1>
+    <p class="lead">Même contenu de départ, refait pour le mobile, plus riche visuellement, avec un projet qui s'ouvre sur sa propre page.</p>
+  </header>
+
+  <div class="stats">
+    <div><strong>46 → 8,5 Mo</strong><span>images converties en WebP</span></div>
+    <div><strong>FR / EN</strong><span>bouton de langue</span></div>
+    <div><strong>/ et /projet/nom</strong><span>plus de /accueil, liens partageables</span></div>
+  </div>
+
+  <section class="row">
+    <h2>Mobile, en haut de page</h2>
+    <div class="pair phone">
+      <figure class="before"><figcaption>Avant</figcaption><img src="{{before/mobile-1-hero.jpg}}" alt="Ancien portfolio sur mobile : titre minuscule et texte coincé dans une colonne étroite"></figure>
+      <figure class="after"><figcaption>Après</figcaption><img src="{{after/mobile-1-hero.jpg}}" alt="Nouveau portfolio sur mobile : photo, titre, accroche et boutons"></figure>
+    </div>
+  </section>
+
+  <section class="row">
+    <h2>Mobile, les projets</h2>
+    <div class="pair phone">
+      <figure class="before"><figcaption>Avant</figcaption><img src="{{before/mobile-2-projects.jpg}}" alt="Ancienne grille de projets sur mobile"></figure>
+      <figure class="after"><figcaption>Après</figcaption><img src="{{after/mobile-2-projects.jpg}}" alt="Nouvelles cartes de projets sur mobile"></figure>
+    </div>
+  </section>
+
+  <section class="row">
+    <h2>Ordinateur, en haut de page</h2>
+    <div class="pair">
+      <figure class="before"><figcaption>Avant</figcaption><img src="{{before/desktop-1-hero.jpg}}" alt="Ancien portfolio sur ordinateur"></figure>
+      <figure class="after"><figcaption>Après</figcaption><img src="{{after/desktop-1-hero.jpg}}" alt="Nouveau portfolio sur ordinateur"></figure>
+    </div>
+  </section>
+
+  <section class="row">
+    <h2>Ouvrir un projet</h2>
+    <div class="pair">
+      <figure class="before"><figcaption>Avant : fenêtre modale</figcaption><img src="{{before/desktop-2-project-modal.jpg}}" alt="Ancienne fenêtre modale avec carrousel"></figure>
+      <figure class="after"><figcaption>Après : page de projet</figcaption><img src="{{after/desktop-2-project-page.jpg}}" alt="Nouvelle page de projet avec galerie, outils et projet suivant"></figure>
+    </div>
+    <ul class="notes">
+      <li><b>Galerie :</b> miniatures, glisser au doigt, flèches du clavier, plein écran.</li>
+      <li><b>Lien direct :</b> chaque projet a sa propre adresse, et les boutons précédent / suivant relancent la visite.</li>
+      <li><b>Fini :</b> les particules WebGL derrière chaque projet et le carrousel lourd.</li>
+    </ul>
+  </section>
+</main>
