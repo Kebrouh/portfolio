@@ -9,31 +9,17 @@
         "img": "cb_dashboard.webp",
         "galerie_img": [
             "cb_dashboard.webp",
-            "cb_leaderboard.webp",
-            "cb_players.webp",
-            "cb_tournament.webp",
+            "cb_lab_customizer.webp",
+            "cb_lab_customizer_open.webp",
             "cb_broadcast.webp",
+            "cb_tournament.webp",
+            "cb_players.webp",
+            "cb_leaderboard.webp",
             "cb_profile.webp"
         ],
         "logoLogi": "claude.svg",
         "description": "Web app",
-        "long_description": "My friend and I built this app to track our Magic: The Gathering games, build everyone's stats, manage decks and collections, run tournaments and broadcast live games. It supports several card games, and the shots here come from a demo league."
-    },
-    {
-        "nom": "Cardboarding Lab",
-        "type": "web",
-        "hasLink": true,
-        "link": "https://www.cardboarding.ca/lab/deckbox",
-        "hasVid": false,
-        "gif": "",
-        "img": "cb_lab_customizer.webp",
-        "galerie_img": [
-            "cb_lab_customizer.webp",
-            "cb_lab_landing.webp"
-        ],
-        "logoLogi": "claude.svg",
-        "description": "3D deckbox customizer",
-        "long_description": "The Lab is where my 3D printing side business meets the app. Players pick the colors, symbol, corners and drawer of a Commander deckbox in a live 3D preview, then order it online with Canadian shipping or local pickup. I print each one myself. The Spellbook models are by Joak1m, used under their commercial licence."
+        "long_description": "My friend and I built this app to track our Magic: The Gathering games, build everyone's stats, manage decks and collections, run tournaments and broadcast live games. It also has the Lab, where players design a Commander deckbox in a live 3D preview and order it from my 3D printing side business (the Spellbook models are by Joak1m, used under their commercial licence). The shots come from a demo league."
     },
     {
         "nom": "Kirby cog figure",
