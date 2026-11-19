@@ -51,23 +51,19 @@ const ProjectPage = () => {
         <Gallery images={project.images} name={project.name} />
 
         <div className="project-info">
-          <span className="card-type">{t.types[project.type] || project.type}</span>
           <h1>{project.name}</h1>
-          <p className="project-label">{project.label}</p>
+          <p className="project-meta">
+            {t.types[project.type] || project.type} · {project.label}
+          </p>
 
           {project.long.split("\n\n").map((para) => (
             <p key={para.slice(0, 30)}>{para}</p>
           ))}
 
           {project.tools.length > 0 && (
-            <div className="tools">
-              <h2>{t.project.tools}</h2>
-              <ul>
-                {project.tools.map((tool) => (
-                  <li key={tool}>{tool}</li>
-                ))}
-              </ul>
-            </div>
+            <p className="project-tools">
+              {t.project.tools}: {project.tools.join(" · ")}
+            </p>
           )}
 
           {project.link && (

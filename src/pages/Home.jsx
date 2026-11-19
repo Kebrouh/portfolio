@@ -9,17 +9,10 @@ const Hero = () => {
   return (
     <section className="hero wrap">
       <div className="hero-text">
-        <p className="pill">
-          <span className="dot" /> {t.hero.eyebrow}
-        </p>
         <h1>Olivier Daigneault</h1>
         <p className="hero-role">{t.hero.role}</p>
         <p className="hero-tagline">{t.hero.tagline}</p>
-        <ul className="chips">
-          {t.hero.chips.map((c) => (
-            <li key={c}>{c}</li>
-          ))}
-        </ul>
+        <p className="hero-status">{t.hero.eyebrow}</p>
         <div className="cta">
           <a href="#work" className="btn btn-primary">
             {t.hero.ctaWork}
@@ -42,7 +35,7 @@ const Featured = ({ projects }) => {
   if (!featured.length) return null;
   return (
     <section className="section wrap" id="featured">
-      <header className="section-head reveal">
+      <header className="section-head">
         <h2>{t.featured.title}</h2>
         <p>{t.featured.sub}</p>
       </header>
@@ -63,11 +56,11 @@ const Work = ({ projects }) => {
 
   return (
     <section className="section wrap" id="work">
-      <header className="section-head reveal">
+      <header className="section-head">
         <h2>{t.work.title}</h2>
         <p>{t.work.count(shown.length)}</p>
       </header>
-      <div className="filters reveal" role="tablist" aria-label={t.work.title}>
+      <div className="filters" role="tablist" aria-label={t.work.title}>
         {["all", ...types].map((ty) => (
           <button
             key={ty}
@@ -94,18 +87,18 @@ const About = () => {
   const { t, lang } = useLang();
   return (
     <section className="section wrap" id="about">
-      <header className="section-head reveal">
+      <header className="section-head">
         <h2>{t.about.title}</h2>
       </header>
       <div className="about">
-        <div className="about-text reveal">
+        <div className="about-text">
           {site.about[lang].map((p) => (
             <p key={p.slice(0, 24)}>{p}</p>
           ))}
         </div>
         <div className="skills">
           {site.skills[lang].map((g) => (
-            <div className="skill reveal" key={g.title}>
+            <div className="skill" key={g.title}>
               <h3>{g.title}</h3>
               <ul>
                 {g.items.map((it) => (
@@ -124,18 +117,20 @@ const Experience = () => {
   const { t, lang } = useLang();
   return (
     <section className="section wrap" id="experience">
-      <header className="section-head reveal">
+      <header className="section-head">
         <h2>{t.experience.title}</h2>
       </header>
       <ol className="timeline">
         {site.experience.map((e) => (
-          <li className="reveal" key={e.org + e.role.en}>
-            <div className="tl-head">
-              <h3>{e.role[lang]}</h3>
-              {e.period && <span className="tl-period">{e.period[lang]}</span>}
+          <li key={e.org + e.role.en}>
+            <div className="tl-meta">
+              <span className="tl-org">{e.org}</span>
+              {e.period && <span>{e.period[lang]}</span>}
             </div>
-            <p className="tl-org">{e.org}</p>
-            <p>{e.text[lang]}</p>
+            <div className="tl-body">
+              <h3>{e.role[lang]}</h3>
+              <p>{e.text[lang]}</p>
+            </div>
           </li>
         ))}
       </ol>
@@ -147,9 +142,10 @@ const Contact = () => {
   const { t } = useLang();
   return (
     <section className="section wrap" id="contact">
-      <div className="contact reveal">
+      <div className="contact">
         <h2>{t.contact.title}</h2>
         <p>{t.contact.text}</p>
+        <a className="contact-mail link" href={`mailto:${site.email}`}>{site.email}</a>
         <div className="cta">
           <a className="btn btn-primary" href={`mailto:${site.email}`}>
             {t.contact.email}
@@ -161,7 +157,7 @@ const Contact = () => {
             {t.contact.cv} · {t.contact.cvFr}
           </a>
         </div>
-        <p className="contact-mail">{site.email}</p>
+        
       </div>
     </section>
   );

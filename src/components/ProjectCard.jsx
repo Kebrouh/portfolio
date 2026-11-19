@@ -9,9 +9,10 @@ const ProjectCard = ({ project, size = "md" }) => {
         <img src={project.cover} alt="" loading="lazy" decoding="async" />
       </div>
       <div className="card-body">
-        <span className="card-type">{t.types[project.type] || project.type}</span>
         <h3>{project.name}</h3>
-        <p>{project.label}</p>
+        <p>
+          {t.types[project.type] || project.type} · {project.label}
+        </p>
       </div>
     </Link>
   );
