@@ -5,11 +5,18 @@
 export const projectsMeta = {
   Cardboarding: {
     featured: true,
-    cover: "01-tracker-captioned.webp",
     tools: ["React", "Supabase", "Stripe", "Blender"],
     fr: {
       description: "Application web",
-      long: "Mon ami et moi avons créé cette application pour suivre les parties de Magic: The Gathering de notre groupe, bâtir les statistiques de chacun, gérer decks et collections, et nous avons ajouté un personnalisateur de deckbox avec visualiseur 3D pour recevoir les commandes de mon entreprise d'impression 3D.",
+      long: "Mon ami et moi avons créé cette application pour suivre nos parties de Magic: The Gathering, bâtir les statistiques de chacun, gérer decks et collections, organiser des tournois et diffuser des parties en direct. Elle prend en charge plusieurs jeux de cartes, et les captures viennent d'une ligue de démonstration.",
+    },
+  },
+  "Cardboarding Lab": {
+    featured: true,
+    tools: ["React", "Three.js", "Stripe", "Blender", "3D print"],
+    fr: {
+      description: "Personnalisateur de deckbox 3D",
+      long: "Le Lab, c'est là que mon entreprise d'impression 3D rejoint l'application. Les joueurs choisissent les couleurs, le symbole, les coins et le tiroir d'une deckbox Commander dans un aperçu 3D en direct, puis la commandent en ligne, avec livraison au Canada ou ramassage local. J'imprime chacune moi-même. Les modèles Spellbook sont de Joak1m, utilisés sous leur licence commerciale."
     },
   },
   "Kirby cog figure": {
@@ -35,7 +42,6 @@ export const projectsMeta = {
     },
   },
   "Atmosphäre value": {
-    featured: true,
     tools: ["3ds Max"],
     fr: {
       description: "Animation 3D",
